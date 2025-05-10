@@ -1,0 +1,50 @@
+{
+    "FAS4": {
+      "name": "Musharaka Financing",
+      "description": "Covers equity participation, joint ventures, and profit-sharing arrangements",
+      "key_concepts": ["equity", "partnership", "profit sharing", "joint venture", "buyout", "ownership"],
+      "transaction_indicators": ["equity adjustment", "profit distribution", "capital contribution", "partner exit"],
+      "accounting_entries": ["partner equity", "profit allocation", "loss allocation"],
+      "weight": 1.0
+    },
+    "FAS7": {
+      "name": "Salam and Parallel Salam",
+      "description": "Advance payment for future delivery of goods",
+      "key_concepts": ["advance payment", "commodity", "delivery", "salam capital", "future delivery"],
+      "transaction_indicators": ["advance purchase", "commodity trade", "manufacturing order"],
+      "accounting_entries": ["salam receivable", "salam capital", "inventory"],
+      "weight": 1.0
+    },
+    "FAS10": {
+      "name": "Istisna'a and Parallel Istisna'a",
+      "description": "Commissioned manufacturing with progressive payments",
+      "key_concepts": ["manufacturing", "construction", "progressive payment", "work-in-progress", "contract"],
+      "transaction_indicators": ["contract adjustment", "construction project", "manufacturing order", "progress payment"],
+      "accounting_entries": ["work-in-progress", "accounts payable", "revenue recognition", "contract cost"],
+      "weight": 1.0
+    },
+    "FAS28": {
+      "name": "Murabaha and Other Deferred Payment Sales",
+      "description": "Cost-plus financing for asset purchases",
+      "key_concepts": ["cost-plus", "markup", "installment", "deferred payment", "sale"],
+      "transaction_indicators": ["asset purchase", "installment sale", "markup adjustment"],
+      "accounting_entries": ["murabaha receivable", "inventory", "deferred profit", "sales revenue"],
+      "weight": 1.0
+    },
+    "FAS32": {
+      "name": "Ijarah and Ijarah Muntahia Bittamleek",
+      "description": "Leasing arrangements, including lease-to-own",
+      "key_concepts": ["lease", "rental", "right-of-use", "asset transfer", "ijarah", "maintenance"],
+      "transaction_indicators": ["lease agreement", "rental payment", "asset transfer", "right-of-use"],
+      "accounting_entries": ["right-of-use asset", "ijarah liability", "deferred ijarah cost", "amortization"],
+      "weight": 1.0
+    },
+    "FAS20": {
+      "name": "Investment Property",
+      "description": "Accounting for property held for investment",
+      "key_concepts": ["investment property", "fair value", "rental income", "property management"],
+      "transaction_indicators": ["property acquisition", "rental income", "fair value adjustment"],
+      "accounting_entries": ["investment property", "fair value adjustment", "rental income"],
+      "weight": 0.8
+    }
+  }

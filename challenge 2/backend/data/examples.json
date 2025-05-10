@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "GreenTech Buyout (Example 1)",
+    "text": "Context: GreenTech exits in Year 3, and Al Baraka Bank buys out its stake. Adjustments: Buyout Price: $1,750,000, Bank Ownership: 100%. Accounting Treatment: Derecognition of GreenTech's equity, Recognition of acquisition expense. Journal Entry for Buyout: Dr. GreenTech Equity $1,750,000, Cr. Cash $1,750,000"
+  },
+  {
+    "id": 1,
+    "name": "Contract Reversal (Example 2)",
+    "text": "Context: The client cancels the change order, reverting to the original contract terms. Adjustments: Revised Contract Value: Back to $5,000,000, Timeline Restored: 2 years. Accounting Treatment: Adjustment of revenue and cost projections, Reversal of additional cost accruals. Journal Entry for Cost Reversal: Dr. Accounts Payable $1,000,000, Cr. Work-in-Progress $1,000,000. This restores the original contract cost."
+  },
+  {
+    "id": 2,
+    "name": "Property Investment",
+    "text": "Context: Al Amal Islamic Bank acquires commercial property for $3,500,000 to generate rental income. Property management costs are estimated at $150,000 annually with expected rental income of $420,000 per year. The bank plans to hold the property for long-term capital appreciation. Journal Entry: Dr. Investment Property $3,500,000, Cr. Cash $3,500,000"
+  },
+  {
+    "id": 3,
+    "name": "Ijarah Equipment Lease",
+    "text": "Context: ABC Manufacturing enters into a 3-year Ijarah agreement for industrial equipment with Al Falah Islamic Bank. Equipment cost: $250,000. Annual rental: $95,000. Expected residual value: $25,000. At the end of the lease term, ownership will be transferred through a separate gift contract. Journal Entry (Lessor's books): Dr. Ijarah Asset $250,000, Cr. Cash $250,000"
+  },
+  {
+    "id": 4,
+    "name": "مثال المرابحة",
+    "text": "قامت شركة البركة للتجارة بشراء مواد خام بقيمة 500,000 دولار من خلال تمويل مرابحة مدته 12 شهرًا. تم تطبيق هامش ربح بنسبة 5٪. القيد المحاسبي: المدين: الذمم المدينة للمرابحة 500,000 دولار، الدائن: حساب المرابحة 500,000 دولار."
+  },
+  {
+    "id": 5,
+    "name": "مثال الإجارة",
+    "text": "وقعت شركة الرياض للاستثمار الإسلامي عقد إجارة مع شركة الصناعات المالية لاستئجار مبنى بقيمة 2,000,000 دولار لمدة 5 سنوات. تم الاتفاق على دفعات سنوية قدرها 450,000 دولار. القيد المحاسبي: المدين: أصل حق الاستخدام 2,000,000 دولار، الدائن: التزام الإجارة 2,000,000 دولار."
+  }
+]

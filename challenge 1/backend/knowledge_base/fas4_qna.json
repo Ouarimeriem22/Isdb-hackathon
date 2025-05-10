@@ -1,0 +1,222 @@
+[
+    {
+      "question": "What is the scope of AAOIFI Financial Accounting Standard (FAS) 4?",
+      "answer": "According to FAS 4 (Section 1.1), this standard applies to the accounting for Murabaha and Murabaha to the Purchase Orderer (MPO) transactions entered into by Islamic Financial Institutions (IFIs).",
+      "keywords": ["scope", "fas 4", "murabaha", "murabaha to the purchase orderer", "mpo", "ifi"]
+    },
+    {
+      "question": "How does FAS 4 define Murabaha?",
+      "answer": "FAS 4 (Section 1.2) defines Murabaha as a sale of goods at a price which includes a profit margin agreed upon by both parties (seller and buyer). The purchase price and the profit margin must be disclosed to the buyer. The sale can be for immediate payment (spot Murabaha) or deferred payment.",
+      "keywords": ["murabaha", "definition", "fas 4", "profit margin", "cost disclosure", "deferred payment", "spot payment"]
+    },
+    {
+      "question": "What is Murabaha to the Purchase Orderer (MPO) as described in FAS 4?",
+      "answer": "FAS 4 (Section 1.3) describes Murabaha to the Purchase Orderer (MPO) as a transaction where an Islamic Financial Institution (IFI) purchases an asset based on a promise from a customer (the purchase orderer) to buy it from the IFI on Murabaha terms after the IFI has acquired the asset.",
+      "keywords": ["murabaha to the purchase orderer", "mpo", "definition", "fas 4", "promise", "ifi", "asset acquisition"]
+    },
+    {
+      "question": "How is 'cost' defined in the context of a Murabaha transaction under FAS 4?",
+      "answer": "Under FAS 4 (Section 1.4), 'cost' in Murabaha refers to the actual cost incurred by the IFI in acquiring the asset intended for the Murabaha sale. This cost forms the basis for calculating the Murabaha profit.",
+      "keywords": ["murabaha", "cost", "definition", "fas 4", "asset acquisition", "ifi"]
+    },
+    {
+      "question": "What is 'profit' in a Murabaha transaction according to FAS 4?",
+      "answer": "According to FAS 4 (Section 1.5), 'profit' in Murabaha is the agreed-upon markup over the cost, which constitutes the IFI's earnings from the Murabaha transaction.",
+      "keywords": ["murabaha", "profit", "definition", "fas 4", "markup", "earnings"]
+    },
+    {
+      "question": "How does FAS 4 differentiate Murabaha from a Musawama sale?",
+      "answer": "FAS 4 (Section 1.6) clarifies that Murabaha is distinct from a Musawama sale because in Murabaha, the cost of the asset to the IFI and the profit margin must be disclosed to the buyer, whereas in Musawama, the cost is not disclosed.",
+      "keywords": ["murabaha", "musawama", "difference", "distinction", "cost disclosure", "fas 4"]
+    },
+    {
+      "question": "What are the conditions for a valid Murabaha sale as per FAS 4, Section 2?",
+      "answer": "FAS 4 (Section 2) outlines several conditions for a valid Murabaha sale, including: the asset must exist and be owned by the IFI; the IFI must have possession (actual or constructive) before selling it; the cost and profit margin must be disclosed; the sale must be for a specific asset; and the price must be fixed at the time of contract.",
+      "keywords": ["murabaha", "valid sale", "conditions", "shari'a compliance", "fas 4", "ownership", "possession", "disclosure"]
+    },
+    {
+      "question": "Does an IFI need to own an asset before conducting a Murabaha sale according to FAS 4?",
+      "answer": "Yes, FAS 4 (Section 2.1) requires that the subject matter of the sale (the asset) must exist and be owned by the IFI at the time of the Murabaha sale to the customer.",
+      "keywords": ["murabaha", "asset ownership", "ifi", "condition", "fas 4"]
+    },
+    {
+      "question": "Is possession of the asset by the IFI a prerequisite for a Murabaha sale under FAS 4?",
+      "answer": "Yes, FAS 4 (Section 2.2) mandates that the IFI must have taken possession (actual or constructive) of the asset, and the risks and rewards associated with it must have transferred to the IFI, prior to its sale to the Murabaha customer.",
+      "keywords": ["murabaha", "asset possession", "ifi", "condition", "fas 4", "risks and rewards"]
+    },
+    {
+      "question": "Can the price in a Murabaha contract be changed or linked to future benchmarks after the contract is made, according to FAS 4?",
+      "answer": "No, FAS 4 (Section 2.5) states that the price (cost plus profit) in a Murabaha sale must be fixed and determined at the time of the Murabaha contract. It cannot be linked to future unknown benchmarks once the contract is concluded.",
+      "keywords": ["murabaha", "price fixing", "contract terms", "fas 4", "benchmark"]
+    },
+    {
+      "question": "What are the two distinct transactions involved in Murabaha to the Purchase Orderer (MPO) under FAS 4?",
+      "answer": "As per FAS 4 (Section 3.1), an MPO involves two distinct transactions: a) The IFI's purchase of the asset from a third-party supplier, and b) The IFI's subsequent Murabaha sale of that specific asset to the purchase orderer (customer).",
+      "keywords": ["murabaha to the purchase orderer", "mpo", "distinct transactions", "fas 4", "ifi purchase", "customer sale"]
+    },
+    {
+      "question": "What is the role of the customer's 'promise' (Wa'd) in an MPO transaction as per FAS 4?",
+      "answer": "According to FAS 4 (Section 3.2), in an MPO, the customer's request to the IFI to purchase an asset, along with their promise (Wa'd) to buy it from the IFI via Murabaha after the IFI acquires it, forms the basis of the transaction.",
+      "keywords": ["murabaha to the purchase orderer", "mpo", "promise", "wa'd", "customer request", "fas 4"]
+    },
+    {
+      "question": "When can a customer's promise to purchase in an MPO be considered binding according to FAS 4?",
+      "answer": "FAS 4 (Section 3.3) indicates that a promise to purchase in an MPO may be binding on the purchase orderer if stipulated and if the IFI incurs expenses or enters into a commitment based on that promise. If the customer defaults on a binding promise, the IFI may only claim compensation for actual damages incurred.",
+      "keywords": ["mpo", "binding promise", "default", "actual damages", "fas 4"]
+    },
+    {
+      "question": "When must the IFI acquire and assume risk for an asset in an MPO before selling it to the customer, according to FAS 4?",
+      "answer": "FAS 4 (Section 3.4) stipulates that the IFI must acquire the asset and assume its risks *before* executing the Murabaha sale contract with the customer in an MPO. A sale contract cannot precede the IFI's ownership and possession.",
+      "keywords": ["mpo", "asset acquisition", "risk assumption", "timing", "ifi ownership", "fas 4"]
+    },
+    {
+      "question": "When should an IFI recognize an asset intended for Murabaha sale as 'Murabaha Inventory' under FAS 4?",
+      "answer": "According to FAS 4 (Section 4.1), an asset acquired by an IFI for Murabaha resale should be recognized as inventory (e.g., 'Murabaha Inventory') when the IFI obtains control, meaning the risks and rewards of ownership are transferred, or the asset is physically received.",
+      "keywords": ["murabaha", "asset recognition", "inventory", "murabaha inventory", "control", "risks and rewards", "fas 4"]
+    },
+    {
+      "question": "How is a Murabaha asset (inventory) initially measured by an IFI under FAS 4?",
+      "answer": "FAS 4 (Section 4.2) states that the Murabaha asset (inventory) shall be initially measured at its cost.",
+      "keywords": ["murabaha", "asset measurement", "initial measurement", "inventory", "cost", "fas 4"]
+    },
+    {
+      "question": "What components are included in the 'cost' of a Murabaha asset according to FAS 4?",
+      "answer": "As per FAS 4 (Section 4.3), the cost of a Murabaha asset includes its purchase price and any directly attributable costs incurred to bring it to its present location and condition for the Murabaha sale (e.g., freight, insurance during transit to IFI, import duties, non-refundable acquisition taxes).",
+      "keywords": ["murabaha", "asset cost", "components", "direct costs", "purchase price", "fas 4"]
+    },
+    {
+      "question": "Are internal administrative overheads or IFI selling expenses included in the cost of a Murabaha asset under FAS 4?",
+      "answer": "No, FAS 4 (Section 4.4) specifies that costs not directly attributable to the acquisition, such as internal administrative overheads or the IFI's selling expenses, are not part of the Murabaha asset's cost.",
+      "keywords": ["murabaha", "asset cost", "excluded costs", "indirect costs", "overheads", "fas 4"]
+    },
+    {
+      "question": "How should trade discounts or rebates received by an IFI on acquiring a Murabaha asset be treated according to FAS 4?",
+      "answer": "FAS 4 (Section 4.5) states that if the IFI receives any trade discounts or rebates from the supplier at the time of acquiring the asset, these should reduce the cost of the Murabaha asset.",
+      "keywords": ["murabaha", "asset cost", "trade discounts", "rebates", "supplier rebates", "fas 4"]
+    },
+    {
+      "question": "How are Murabaha assets (inventory) subsequently measured after initial recognition, as per FAS 4?",
+      "answer": "According to FAS 4 (Section 5.1), Murabaha assets (inventory) held by the IFI shall be subsequently measured at the lower of cost and net realizable value (NRV).",
+      "keywords": ["murabaha", "asset measurement", "subsequent measurement", "inventory", "lower of cost and nrv", "fas 4"]
+    },
+    {
+      "question": "What happens if the net realizable value (NRV) of a Murabaha asset falls below its cost, according to FAS 4?",
+      "answer": "If the NRV of a Murabaha asset falls below its cost, FAS 4 (Section 5.2) requires that the carrying amount of the asset be written down to its NRV. Such a write-down is recognized as an expense.",
+      "keywords": ["murabaha", "inventory", "nrv", "net realizable value", "write-down", "impairment", "expense", "fas 4"]
+    },
+    {
+      "question": "When should an IFI recognize a Murabaha sale and the corresponding Murabaha receivable under FAS 4?",
+      "answer": "A Murabaha sale is recognized when the IFI sells the asset to the Murabaha customer, and the risks and rewards of ownership of that specific asset are transferred from the IFI to the customer. Concurrently, the Murabaha receivable is recognized. (FAS 4, Section 6.1, 6.3)",
+      "keywords": ["murabaha", "sale recognition", "receivable recognition", "risks and rewards transfer", "fas 4"]
+    },
+    {
+      "question": "At what value is a Murabaha receivable recognized by an IFI according to FAS 4?",
+      "answer": "As per FAS 4 (Section 6.3), upon recognition of the Murabaha sale, a Murabaha receivable shall be recognized at the total selling price, which is the cost to the IFI plus the agreed profit margin, due from the customer.",
+      "keywords": ["murabaha", "receivable recognition", "measurement", "selling price", "cost plus profit", "fas 4"]
+    },
+    {
+      "question": "How is Murabaha profit recognized for deferred payment transactions under FAS 4?",
+      "answer": "FAS 4 (Section 7.1) stipulates that profit from a Murabaha transaction with deferred payment shall be recognized on a time-proportion basis over the period of the credit. This typically means allocating profit in proportion to the outstanding balance of the Murabaha receivable (e.g., using the effective profit rate method).",
+      "keywords": ["murabaha", "profit recognition", "deferred payment", "time-proportion basis", "effective profit rate", "fas 4"]
+    },
+    {
+      "question": "Is the time-proportion method for profit recognition in deferred Murabaha always applicable under FAS 4?",
+      "answer": "The time-proportion method for profit recognition in deferred Murabaha should only be applied if it does not conflict with the Shari’a principle that profit is earned through a valid sale of an asset; the underlying sale must be genuine. (FAS 4, Section 7.2)",
+      "keywords": ["murabaha", "profit recognition", "deferred payment", "time-proportion basis", "shari'a principle", "fas 4"]
+    },
+    {
+      "question": "How is profit recognized in a spot payment Murabaha transaction as per FAS 4?",
+      "answer": "FAS 4 (Section 7.3) states that if the Murabaha sale is for immediate payment (spot), the entire profit is recognized at the point of sale.",
+      "keywords": ["murabaha", "profit recognition", "spot payment", "point of sale", "fas 4"]
+    },
+    {
+      "question": "Under what condition can profit for a short-term deferred Murabaha be recognized at the point of sale, according to FAS 4?",
+      "answer": "If the Murabaha payment is deferred but for a short term (e.g., settlement expected within the same financial period), profit may be recognized at the point of sale if the effect of doing so is not materially different from using the time-proportion basis. (FAS 4, Section 7.4)",
+      "keywords": ["murabaha", "profit recognition", "short-term deferred payment", "point of sale", "materiality", "fas 4"]
+    },
+    {
+      "question": "Should Murabaha profit on deferred payments be recognized on a cash or accrual basis according to FAS 4?",
+      "answer": "For deferred payments, FAS 4 (Section 7.5) requires Murabaha profit to be recognized on an accrual basis, not solely when cash is received.",
+      "keywords": ["murabaha", "profit recognition", "accrual basis", "cash basis", "deferred payment", "fas 4"]
+    },
+    {
+      "question": "How should rebates voluntarily given by an IFI for early Murabaha payment be accounted for under FAS 4?",
+      "answer": "According to FAS 4 (Section 8.1), any rebate voluntarily given by the IFI to a Murabaha purchaser for early payment should be accounted for as a reduction of the accrued/deferred Murabaha income and the Murabaha receivable. Such rebates are permissible if not contractually stipulated as a right resembling interest.",
+      "keywords": ["murabaha", "early payment rebate", "accounting treatment", "income reduction", "receivable reduction", "fas 4"]
+    },
+    {
+      "question": "When should an IFI recognize income from contractually agreed late payment penalties (Ta'widh) in Murabaha transactions, as per FAS 4?",
+      "answer": "FAS 4 (Section 8.2.b) states that contractually agreed amounts for late payment (Ta'widh / compensation for delay) shall be recognized as income by the IFI only when actually collected.",
+      "keywords": ["murabaha", "late payment penalty", "ta'widh", "compensation", "income recognition", "collected", "fas 4"]
+    },
+    {
+      "question": "What is the generally prescribed use of income from late payment penalties in Murabaha according to FAS 4?",
+      "answer": "FAS 4 (Section 8.2.c) generally directs that income from such penalties should be channeled to charity, unless the IFI's Shari’a Supervisory Board permits it to be taken as income to cover actual financial loss suffered due to the customer's delinquency.",
+      "keywords": ["murabaha", "late payment penalty", "charity", "shari'a supervisory board", "actual loss", "fas 4"]
+    },
+    {
+      "question": "What is 'Hamish Jiddiyah' in the context of MPO under FAS 4, and how is it initially treated?",
+      "answer": "Under FAS 4 (Section 8.3.a, 8.3.b), 'Hamish Jiddiyah' is a security deposit obtained from the purchase orderer in an MPO to ensure their seriousness. This deposit is initially held as a liability (trust amount) by the IFI.",
+      "keywords": ["mpo", "hamish jiddiyah", "security deposit", "definition", "initial treatment", "liability", "fas 4"]
+    },
+    {
+      "question": "How can an IFI use the Hamish Jiddiyah if a customer breaches a binding promise in an MPO, as per FAS 4?",
+      "answer": "If the purchase orderer breaches a binding promise and the IFI incurs an actual loss (e.g., from selling the asset to a third party for less than IFI's cost), the Hamish Jiddiyah may be used to cover this actual loss. Any excess deposit must be returned. The deposit cannot compensate for the IFI's lost expected profit. (FAS 4, Section 8.3.d)",
+      "keywords": ["mpo", "hamish jiddiyah", "breach of promise", "binding promise", "actual loss compensation", "fas 4"]
+    },
+    {
+      "question": "What if the customer's promise in MPO is non-binding and they decide not to proceed after the IFI takes Hamish Jiddiyah?",
+      "answer": "FAS 4 (Section 8.3.e) indicates that if the promise is non-binding and the customer decides not to proceed, the full Hamish Jiddiyah deposit must be returned to the customer.",
+      "keywords": ["mpo", "hamish jiddiyah", "non-binding promise", "deposit return", "fas 4"]
+    },
+    {
+      "question": "Can an IFI take collateral (Rahn) or guarantees to secure Murabaha receivables according to FAS 4?",
+      "answer": "Yes, FAS 4 (Section 9.1) permits an IFI to take collateral (Rahn) or obtain third-party guarantees to secure the Murabaha receivable. The accounting for collateral follows general principles.",
+      "keywords": ["murabaha", "collateral", "rahn", "guarantees", "security", "receivables", "fas 4"]
+    },
+    {
+      "question": "When should an IFI establish a provision for doubtful Murabaha receivables according to FAS 4?",
+      "answer": "An IFI should establish a provision for doubtful Murabaha receivables (allowance for credit losses) if, at each reporting date, there is objective evidence that the IFI will not be able to collect all amounts due according to the original terms of the receivable. (FAS 4, Section 10.1, 10.2)",
+      "keywords": ["murabaha", "provision for doubtful receivables", "credit losses", "impairment", "objective evidence", "fas 4"]
+    },
+    {
+      "question": "How is the amount of the provision for doubtful Murabaha receivables determined under FAS 4?",
+      "answer": "According to FAS 4 (Section 10.3), the amount of the provision should be the difference between the receivable's carrying amount and the present value of estimated future cash flows discounted at the Murabaha contract's original effective profit rate (or based on expected uncollectible amounts without discounting, as a practical/Shari'a compliant expedient).",
+      "keywords": ["murabaha", "provision amount", "calculation", "doubtful receivables", "discounted cash flows", "fas 4"]
+    },
+    {
+      "question": "Who bears the loss if an asset acquired by an IFI for Murabaha is damaged or found defective *before* its sale to the customer, as per FAS 4?",
+      "answer": "FAS 4 (Section 11.1) states that if an asset acquired by the IFI for Murabaha is damaged or found defective *before* its sale to the Murabaha customer, the loss is borne by the IFI. The cost of the asset for Murabaha purposes must be adjusted accordingly, or it may be deemed unsuitable.",
+      "keywords": ["murabaha", "damaged goods", "defective goods", "loss bearer", "ifi responsibility", "pre-sale", "fas 4"]
+    },
+    {
+      "question": "What are the implications if a customer discovers a defect (Khiyar al-Ayb) in an asset *after* a Murabaha sale, according to FAS 4 guidance?",
+      "answer": "If a defect is discovered by the customer *after* the Murabaha sale (Khiyar al-Ayb - option of defect), FAS 4 (Section 11.2) suggests the customer may have recourse as per Shari’a rules (e.g., return the asset, receive compensation). The IFI should account for such returns or allowances as a reduction in revenue and receivables, or an expense.",
+      "keywords": ["murabaha", "defective goods", "post-sale", "khiyar al-ayb", "customer recourse", "shari'a options", "fas 4"]
+    },
+    {
+      "question": "What are some of the key disclosure requirements for Murabaha and MPO transactions outlined in FAS 4 Section 12?",
+      "answer": "FAS 4 (Section 12) mandates disclosures including: accounting policies for Murabaha/MPO and profit recognition; breakdown of Murabaha receivables (gross, provisions, net); maturity analysis of receivables; recognized Murabaha profit; credit risk concentrations; Hamish Jiddiyah held; details of Murabaha Inventory; and income from late payment penalties along with amounts given to charity.",
+      "keywords": ["murabaha", "disclosure requirements", "mpo", "financial statements", "fas 4", "transparency"]
+    },
+    {
+      "question": "Does FAS 4 require disclosure of the accounting policies for Murabaha profit recognition methods?",
+      "answer": "Yes, FAS 4 (Section 12.1) explicitly requires the disclosure of accounting policies adopted for Murabaha and MPO transactions, including the methods used for profit recognition.",
+      "keywords": ["murabaha", "disclosure", "accounting policies", "profit recognition methods", "fas 4"]
+    },
+    {
+      "question": "What specific information about Murabaha receivables must be disclosed under FAS 4?",
+      "answer": "Under FAS 4 (Sections 12.2, 12.3, 12.5), IFIs must disclose a breakdown of Murabaha receivables (showing gross amounts, provisions for doubtful debts, and net carrying amounts), a maturity analysis of these receivables, and information about significant concentrations of credit risk arising from them.",
+      "keywords": ["murabaha", "disclosure", "receivables breakdown", "provisions", "maturity analysis", "credit risk", "fas 4"]
+    },
+    {
+      "question": "Is the amount of Hamish Jiddiyah (security deposits) held by an IFI a required disclosure under FAS 4?",
+      "answer": "Yes, FAS 4 (Section 12.6) requires the disclosure of the amount of security deposits (Hamish Jiddiyah) held by the IFI.",
+      "keywords": ["murabaha", "disclosure", "hamish jiddiyah", "security deposits", "fas 4"]
+    },
+    {
+      "question": "What disclosures are needed for Murabaha Inventory according to FAS 4?",
+      "answer": "FAS 4 (Section 12.7) requires disclosure of the nature and carrying amount of assets acquired by the IFI but not yet sold under Murabaha (Murabaha Inventory), including any write-downs made to these assets.",
+      "keywords": ["murabaha", "disclosure", "murabaha inventory", "carrying amount", "write-downs", "fas 4"]
+    }
+  ]

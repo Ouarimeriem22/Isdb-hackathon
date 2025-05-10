@@ -1,0 +1,63 @@
+Section 1: Scope and Definitions
+1.1. This standard prescribes the accounting and reporting principles for Salam and Parallel Salam transactions entered into by Islamic Financial Institutions (IFIs).
+1.2. Salam: A sale contract whereby a commodity (the Salam subject matter or "Al-Muslam Fihi") of specified quantity and quality is sold for a price ("Thaman" or Salam capital) paid in full at the time of contract execution (the "Majlis al-‘Aqd"), with delivery of the commodity deferred to a future specified date or dates. The IFI is typically the purchaser (the "Muslam" or "Rabb al-Salam") who pays the price upfront, and the customer is the seller (the "Muslam Ilayhi") who undertakes to deliver the commodity later.
+1.3. Parallel Salam: A transaction entered into by an IFI, independent of the initial Salam contract, wherein the IFI (acting now as the seller) agrees to sell a commodity, usually of the same specification as the one it expects to receive from an initial Salam contract, to a third party for future delivery. The price in Parallel Salam may be paid on spot or deferred. The two Salam contracts (original and parallel) must be distinct and legally separate.
+1.4. Salam Capital (Price): The amount paid in full by the purchaser (IFI) to the seller at the time of concluding the Salam contract. It can be in cash or in kind (e.g., other commodities), provided it is fully specified and delivered.
+1.5. Salam Asset (Subject Matter/Commodity - Al-Muslam Fihi): The good or commodity that the seller undertakes to deliver at a future date. It must be a fungible item that can be precisely described by quantity, quality, and specifications, such that ambiguity (Gharar) is removed.
+1.6. Delivery Date: The specified future date or dates on which the Salam asset is to be delivered by the seller to the purchaser.
+Section 2: Shari'ah Conditions and Basic Principles for Salam
+2.1. The Salam price (capital) must be paid in full by the purchaser to the seller at the time of contract execution. Partial payment invalidates the Salam contract.
+2.2. The Salam asset (commodity) must be clearly specified in terms of type, quality, quantity, and place of delivery, in a way that leaves no ambiguity or potential for dispute.
+2.3. The Salam asset must be a commodity that can be well-defined by specifications and typically traded in the market; it cannot be a specific, unique item (e.g., "this particular car").
+2.4. The date and place of delivery must be clearly specified in the contract. If the place is not specified, then the place of contract is considered the place of delivery.
+2.5. The commodity being sold on Salam must generally be available in the market at the time of delivery, or the seller must have the means to acquire or produce it.
+2.6. Salam cannot be based on commodities that must be exchanged on the spot, like currencies (Sarf).
+Section 3: Recognition and Initial Measurement of Salam Transactions by the IFI (as Purchaser)
+3.1. When an IFI enters into a Salam contract as a purchaser and pays the Salam capital, the amount paid shall be recognized as "Salam Receivable" or "Salam Asset" (representing the IFI's right to receive the commodity) in the statement of financial position.
+3.2. The Salam receivable/asset is initially measured at the amount of the Salam capital paid to the seller.
+3.3. Any direct transaction costs incurred by the IFI related to entering into the Salam contract (e.g., legal fees, inspection costs prior to contracting) may be added to the cost of the Salam receivable/asset if they are directly attributable.
+Section 4: Subsequent Measurement of Salam Receivable/Asset and Recognition of Purchased Commodity
+4.1. Prior to Delivery:
+a) The Salam receivable/asset shall be regularly reviewed for any indication that the seller (Muslam Ilayhi) may not be able to deliver the commodity as per the agreed specifications or time.
+b) If there is objective evidence of potential default or significant impairment in the ability of the seller to deliver (e.g., crop failure known for that specific seller, seller insolvency), a provision for impairment losses on the Salam receivable/asset shall be recognized. The amount of provision should reflect the estimated shortfall in the value or quantity of goods expected.
+4.2. At the Time of Delivery:
+a) When the Salam commodity is delivered by the seller and accepted by the IFI, the Salam receivable/asset is derecognized.
+b) The commodity received is recognized as an asset (e.g., "Inventory from Salam" or "Salam Commodity") and measured at its fair value at the date of delivery if it is intended for immediate sale or use in a Parallel Salam. If intended to be held as regular inventory for a longer period, it may be measured at the carrying amount of the Salam receivable/asset at the time of delivery (i.e., original Salam capital adjusted for any provisions), provided this does not exceed its Net Realizable Value (NRV).
+c) If the IFI had intended to sell the Salam commodity on the spot upon delivery, and this sale materializes, any difference between the spot selling price and the carrying amount of the Salam receivable/asset (original Salam capital) is recognized as profit or loss from Salam transaction at that point.
+d) If the fair value at delivery (for commodities intended for Parallel Salam or spot sale) is different from the Salam capital paid, the difference is typically considered part of the gain or loss from the overall Salam or Parallel Salam operation upon its completion.
+Section 5: Non-Delivery or Delivery of Non-Conforming Goods in Salam
+5.1. Complete Non-Delivery by Seller: If the seller fails to deliver the Salam commodity entirely:
+a) The IFI (purchaser) has the right to cancel the contract and recover the Salam capital paid.
+b) Alternatively, the IFI may agree with the seller to wait for a further period, or substitute the commodity with another (with mutual consent and potentially price adjustment as per Shari'ah), or accept a cash settlement equivalent to the market value of the commodity on the due date (if permissible by Shari'ah Supervisory Board and not leading to Riba).
+c) The Salam receivable/asset must be fully provided for if recovery of capital or equivalent value is deemed doubtful.
+5.2. Partial Delivery or Delivery of Non-Conforming Goods:
+a) If the delivered commodity is less in quantity than agreed, the IFI accepts the delivered portion and has a claim for the undelivered part (similar treatment to 5.1 for the shortfall).
+b) If the delivered commodity does not conform to the agreed specifications (lower quality), the IFI has the option to:
+i. Reject the commodity and claim the Salam capital or agreed-upon substitute.
+ii. Accept the commodity at its lower market value, potentially with a refund for the difference in value, or as full satisfaction if agreed.
+iii. Accept the commodity with a price reduction by mutual consent.
+c) Any adjustments in value or claims arising from non-conforming goods should be appropriately accounted for, impacting the measurement of the received inventory and potential gains/losses.
+Section 6: Accounting for Parallel Salam Transactions by the IFI (as Seller)
+6.1. A Parallel Salam transaction, where the IFI is the seller of a commodity to be delivered in the future, is treated as a separate transaction from the initial Salam contract.
+6.2. When Price is Received Upfront in Parallel Salam:
+a) If the IFI receives the price (Parallel Salam capital) upfront from the third-party buyer, this amount is recognized as a liability, "Deferred Revenue from Parallel Salam" or "Advance from Parallel Salam Customer".
+6.3. Recognition of Revenue from Parallel Salam:
+a) Revenue from a Parallel Salam contract (where the IFI is the seller) is recognized when the IFI fulfills its obligation to deliver the commodity to the Parallel Salam buyer. This typically occurs when the commodity (obtained from the original Salam or other sources) is delivered, and risks and rewards are transferred to the Parallel Salam buyer.
+b) At the point of delivery, the "Deferred Revenue from Parallel Salam" liability is derecognized, and revenue is recognized in the statement of income. The cost of goods sold related to the delivered commodity is also recognized.
+6.4. The IFI cannot net off its obligations under Parallel Salam with its receivables under the original Salam contract in the financial statements, as these are legally distinct transactions.
+6.5. If the commodity to be delivered under Parallel Salam is obtained from the original Salam, its cost will be determined as per Section 4.2.b. If obtained from other sources, its cost is determined based on general inventory accounting principles.
+6.6. If IFI (as seller in Parallel Salam) expects to be unable to deliver: Provisions for onerous contracts may be necessary if the expected cost to fulfill the Parallel Salam obligation (e.g., by purchasing the commodity in the market if the original Salam defaults) exceeds the price received from the Parallel Salam buyer.
+Section 7: Sale of Salam Commodity Before Taking Possession (Not Permissible)
+7.1. It is a fundamental Shari'ah principle that an IFI (or any party) cannot sell a commodity it has purchased on Salam before taking actual or constructive possession of that commodity from the original Salam seller.
+7.2. Therefore, a Parallel Salam contract involves the IFI promising to deliver a commodity of certain specifications, which it plans to acquire (often through an original Salam), but the actual sale and fulfillment under Parallel Salam only occurs after the IFI possesses the commodity.
+Section 8: Disclosure Requirements
+8.1. The accounting policies adopted for Salam and Parallel Salam transactions, including methods for recognition of Salam receivables/assets, inventory received from Salam, provisions for impairment or default, and revenue from Parallel Salam.
+8.2. The total amount of Salam capital paid and outstanding as "Salam Receivables" or "Salam Assets" at the reporting date, categorized by significant types of commodities or counterparties if material.
+8.3. Maturity analysis of Salam receivables/assets.
+8.4. The amount of provisions recognized for impairment of Salam receivables/assets or potential defaults by Salam sellers.
+8.5. The nature and carrying amount of commodities received from Salam and held as inventory at the reporting date.
+8.6. The total amount of advances received from customers under Parallel Salam contracts (Deferred Revenue from Parallel Salam) and recognized as liabilities.
+8.7. The amount of revenue recognized from Parallel Salam transactions during the period.
+8.8. Information about significant commitments under Parallel Salam contracts.
+8.9. Significant terms and conditions of Salam and Parallel Salam contracts, including details of any collateral or guarantees obtained from Salam sellers.
+8.10. Concentrations of risk related to Salam contracts (e.g., specific sellers, commodities, geographical areas).

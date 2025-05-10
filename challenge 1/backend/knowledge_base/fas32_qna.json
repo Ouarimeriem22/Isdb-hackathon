@@ -1,0 +1,127 @@
+[
+    {
+      "question": "What is the scope of AAOIFI Financial Accounting Standard (FAS) 32?",
+      "answer": "FAS 32 (Section 1.1) prescribes the accounting and reporting principles for Ijarah (leasing) and Ijarah Muntahia Bittamleek (IMB - lease ending with ownership transfer) transactions for IFIs, whether as lessor or lessee.",
+      "keywords": ["scope", "fas 32", "ijarah", "ijarah muntahia bittamleek", "imb", "lessor", "lessee", "ifi"]
+    },
+    {
+      "question": "How does FAS 32 define Ijarah?",
+      "answer": "According to FAS 32 (Section 1.2), Ijarah is a contract where a lessor (Mu’jir) transfers the right to use an asset (usufruct/Manfa'ah) to a lessee (Musta’jir) for an agreed period for an agreed rent (Ujrah). Ownership remains with the lessor.",
+      "keywords": ["ijarah", "definition", "fas 32", "leasing", "usufruct", "manfa'ah", "ujrah", "lessor ownership"]
+    },
+    {
+      "question": "What is Ijarah Muntahia Bittamleek (IMB) as per FAS 32?",
+      "answer": "FAS 32 (Section 1.3) defines IMB as an Ijarah contract including a promise by the lessor to transfer ownership of the leased asset to the lessee at the end of the lease (or by stages), typically through a separate contract (e.g., sale, gift), provided Ijarah installments are paid.",
+      "keywords": ["ijarah muntahia bittamleek", "imb", "definition", "fas 32", "lease ending with ownership", "promise to transfer"]
+    },
+    {
+      "question": "How does FAS 32 distinguish between Operating Ijarah and Financing Ijarah?",
+      "answer": "Operating Ijarah (FAS 32, Section 1.4) does not substantially transfer risks and rewards of ownership. Financing Ijarah (FAS 32, Section 1.5), often pertaining to IMB, does substantially transfer these risks and rewards to the lessee.",
+      "keywords": ["operating ijarah", "financing ijarah", "distinction", "fas 32", "risks and rewards", "imb"]
+    },
+    {
+      "question": "What are some indicators that an Ijarah contract is a Financing Ijarah from the lessor's perspective under FAS 32?",
+      "answer": "Indicators for Financing Ijarah (FAS 32, Section 3.1.b) include: lease transfers ownership by term end (key in IMB); lessee has a bargain purchase option; lease term is for major part of asset's economic life; or present value of minimum lease payments is substantially all of the asset's fair value.",
+      "keywords": ["financing ijarah", "indicators", "lessor", "fas 32", "ownership transfer", "bargain purchase option", "economic life", "present value"]
+    },
+    {
+      "question": "What is 'Ujrah' in an Ijarah contract according to FAS 32?",
+      "answer": "FAS 32 (Section 1.6) defines Ujrah (rent) as the consideration paid by the lessee to the lessor for using the leased asset. It can be fixed, variable (linked to a known benchmark), or a combination.",
+      "keywords": ["ujrah", "rent", "definition", "fas 32", "ijarah consideration", "payment terms"]
+    },
+    {
+      "question": "What is a key Shari'ah principle regarding asset ownership in Ijarah as per FAS 32?",
+      "answer": "FAS 32 (Section 2.2) emphasizes that the leased asset must exist and be owned by the lessor (or lessor has right to lease) at contract time or lease commencement. The lessor bears ownership risks.",
+      "keywords": ["ijarah", "shari'ah principle", "lessor ownership", "asset existence", "ownership risk", "fas 32"]
+    },
+    {
+      "question": "Who is responsible for basic maintenance and Takaful/insurance of a leased asset under Ijarah according to FAS 32?",
+      "answer": "As per FAS 32 (Section 2.7), liabilities from ownership like basic maintenance essential for usufruct, major repairs, and Takaful/insurance to protect the asset are the lessor's responsibility. Operational maintenance is typically the lessee's.",
+      "keywords": ["ijarah", "maintenance", "takaful", "insurance", "lessor responsibility", "ownership liabilities", "fas 32"]
+    },
+    {
+      "question": "How must the promise to transfer ownership in IMB be structured according to FAS 32 Shari'ah principles?",
+      "answer": "FAS 32 (Section 2.8) states that in IMB, the promise to transfer ownership must be separate from the Ijarah (lease) contract itself, though it can be documented conjunctively. The transfer mechanism (e.g., sale, gift) must be clearly stipulated.",
+      "keywords": ["imb", "ijarah muntahia bittamleek", "promise to transfer", "separate contract", "shari'ah principle", "fas 32"]
+    },
+    {
+      "question": "How should a lessor account for assets under an Operating Ijarah as per FAS 32?",
+      "answer": "Under Operating Ijarah, FAS 32 (Section 3.2.a, 3.2.b) requires the lessor to present leased assets on their statement of financial position (e.g., 'Ijarah Assets'), measure them at cost, and depreciate them over their useful economic lives. Impairment is recognized if applicable.",
+      "keywords": ["operating ijarah", "lessor accounting", "asset presentation", "depreciation", "fas 32"]
+    },
+    {
+      "question": "How is Ijarah income from Operating Ijarah recognized by the lessor under FAS 32?",
+      "answer": "FAS 32 (Section 3.2.c) states that Ijarah income (rent) from Operating Ijarah should be recognized by the lessor on a straight-line basis over the lease term, unless another systematic basis is more representative.",
+      "keywords": ["operating ijarah", "lessor income recognition", "straight-line basis", "ujrah", "fas 32"]
+    },
+    {
+      "question": "How should a lessor account for a Financing Ijarah (often IMB) according to FAS 32?",
+      "answer": "For Financing Ijarah, FAS 32 (Section 3.3.a, 3.3.b) requires the lessor to recognize an 'Ijarah Receivable' or 'Net Investment in Ijarah' (discounted value of gross investment) and derecognize the leased asset itself. Finance income is recognized over the lease term based on a constant periodic rate of return.",
+      "keywords": ["financing ijarah", "imb", "lessor accounting", "ijarah receivable", "net investment", "asset derecognition", "finance income", "fas 32"]
+    },
+    {
+      "question": "How should a lessee account for rental payments under an Operating Ijarah as per FAS 32?",
+      "answer": "Under Operating Ijarah, FAS 32 (Section 4.2.a) requires the lessee to recognize Ijarah rental payments as an expense ('Ijarah Expense') on a straight-line basis over the lease term, unless another systematic basis is more representative. No asset/liability for future payments is generally recognized.",
+      "keywords": ["operating ijarah", "lessee accounting", "rental expense", "straight-line basis", "fas 32"]
+    },
+    {
+      "question": "How should a lessee account for a Financing Ijarah (often IMB) according to FAS 32?",
+      "answer": "For Financing Ijarah, FAS 32 (Section 4.3.a) requires the lessee to recognize a 'Leased Asset under Ijarah' (or Right-of-Use Asset) and an 'Ijarah Liability' at the lower of the asset's fair value or the present value of minimum lease payments. The asset is depreciated, and payments are apportioned between finance charge and liability reduction.",
+      "keywords": ["financing ijarah", "imb", "lessee accounting", "leased asset", "right-of-use asset", "ijarah liability", "depreciation", "fas 32"]
+    },
+    {
+      "question": "How is the Leased Asset under Financing Ijarah (or ROU asset) depreciated by the lessee as per FAS 32?",
+      "answer": "The Leased Asset is depreciated by the lessee over the shorter of the lease term and its useful life. However, if there's reasonable certainty of ownership transfer by lease end (common in IMB), it's depreciated over its useful life. (FAS 32, Section 4.3.b)",
+      "keywords": ["financing ijarah", "lessee accounting", "asset depreciation", "lease term", "useful life", "imb", "fas 32"]
+    },
+    {
+      "question": "How are sale and leaseback transactions resulting in Financing Ijarah treated under FAS 32?",
+      "answer": "If a sale and leaseback results in Financing Ijarah, FAS 32 (Section 4.4.a) states any excess of sale proceeds over the asset's carrying amount is deferred and amortized over the lease term, not recognized immediately as income.",
+      "keywords": ["sale and leaseback", "financing ijarah", "profit deferral", "amortization", "fas 32"]
+    },
+    {
+      "question": "How is the transfer of asset ownership accounted for by the lessee at the end of an IMB, according to FAS 32?",
+      "answer": "If the lessee exercises a purchase option in an IMB, they pay the option price. The 'Leased Asset under Ijarah' (or ROU asset) is adjusted to reflect full ownership, often reclassified from a leased to an owned asset. Its carrying amount post-transfer may be the sum of ROU asset's carrying value and option price paid. (FAS 32, Section 5.2.b)",
+      "keywords": ["imb", "ownership transfer", "lessee accounting", "purchase option", "asset reclassification", "fas 32"]
+    },
+    {
+      "question": "What are some key disclosure requirements for lessors regarding Operating Ijarah under FAS 32?",
+      "answer": "For Operating Ijarah, lessors must disclose (FAS 32, Section 6.1.b): gross carrying amount, accumulated depreciation, and impairment for leased assets; and future minimum lease payments receivable.",
+      "keywords": ["lessor disclosure", "operating ijarah", "leased assets", "future payments", "fas 32"]
+    },
+    {
+      "question": "What key disclosures are required for lessors regarding Financing Ijarah under FAS 32?",
+      "answer": "For Financing Ijarah, lessors must disclose (FAS 32, Section 6.1.c): reconciliation between gross investment and present value of minimum lease payments; unearned finance income; unguaranteed residual values; and future minimum lease payments receivable.",
+      "keywords": ["lessor disclosure", "financing ijarah", "net investment reconciliation", "unearned finance income", "fas 32"]
+    },
+    {
+      "question": "What disclosures are required for lessees concerning Operating Ijarah under FAS 32?",
+      "answer": "Lessees must disclose for Operating Ijarah (FAS 32, Section 6.2.b): total Ijarah expense recognized in the period and future minimum lease payments.",
+      "keywords": ["lessee disclosure", "operating ijarah", "ijarah expense", "future payments", "fas 32"]
+    },
+    {
+      "question": "What information must lessees disclose for Financing Ijarah according to FAS 32?",
+      "answer": "Lessees must disclose for Financing Ijarah (FAS 32, Section 6.2.c): net carrying amount for each class of leased asset; reconciliation between total future minimum lease payments and their present value; and total future minimum lease payments and their present value for specified future periods.",
+      "keywords": ["lessee disclosure", "financing ijarah", "leased asset carrying amount", "future payments present value", "fas 32"]
+    },
+    {
+      "question": "What is the effective date provision typically found in a standard like FAS 32 Section 7?",
+      "answer": "Section 7.1 of FAS 32 (Transitional Provisions) would state the standard becomes effective for financial statements covering periods beginning on or after a specific date (e.g., 1 January 20XX). It might also mention if early adoption is permitted/encouraged and disclosure of that fact.",
+      "keywords": ["fas 32", "transitional provisions", "effective date", "early adoption"]
+    },
+    {
+      "question": "How is FAS 32 generally applied upon its initial adoption according to its transitional provisions (Section 7.2)?",
+      "answer": "FAS 32 (Section 7.2.a) typically requires retrospective application to all existing Ijarah/IMB contracts, meaning prior period comparatives are restated as if the standard was always in effect, unless impracticable. Adjustments affect retained earnings.",
+      "keywords": ["fas 32", "transitional provisions", "retrospective application", "restatement", "comparative information"]
+    },
+    {
+      "question": "What happens if retrospective application of FAS 32 is impracticable for certain contracts, as per Section 7.2.c?",
+      "answer": "If retrospective application is impracticable for some contracts, FAS 32 (Section 7.2.c) requires the IFI to apply the standard to the carrying amounts of Ijarah assets/liabilities at the beginning of the earliest period for which it's practicable (possibly current period), adjust opening retained earnings of that period, and disclose the impracticability.",
+      "keywords": ["fas 32", "transitional provisions", "impracticability", "retrospective application exception", "disclosure"]
+    },
+    {
+      "question": "What disclosures are required by FAS 32 regarding the impact of its initial application, according to Section 7.4?",
+      "answer": "Upon first application, FAS 32 (Section 7.4) requires disclosure of: the standard's title; fact of accounting policy change; transitional provisions adopted; nature of policy change; amounts of adjustment for current/prior periods per line item (if practicable); adjustment for periods prior to those presented; and reasons for any impracticability of retrospective application.",
+      "keywords": ["fas 32", "transitional provisions", "disclosure of impact", "change in accounting policy"]
+    }
+  ]

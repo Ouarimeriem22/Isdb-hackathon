@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+instance/
+.webassets-cache
+
+# Backend specific
+backend/venv/
+backend/.env
+backend/instance/
+backend/__pycache__/
+backend/modules/__pycache__/
+
+
+# Node / Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.pnp.*
+frontend/.env
+frontend/.env.*
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db

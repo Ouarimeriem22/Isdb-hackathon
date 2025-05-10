@@ -1,0 +1,152 @@
+[
+    {
+      "question": "What is the scope of AAOIFI Financial Accounting Standard (FAS) 10?",
+      "answer": "FAS 10 (Section 1.1) prescribes the accounting and reporting principles for Istisna'a and Parallel Istisna'a transactions entered into by Islamic Financial Institutions (IFIs).",
+      "keywords": ["scope", "fas 10", "istisna'a", "parallel istisna'a", "ifi"]
+    },
+    {
+      "question": "How does FAS 10 define an Istisna'a contract?",
+      "answer": "According to FAS 10 (Section 1.2), Istisna'a is a contract for manufacturing, constructing, or producing an asset (the Masnoo') with specified characteristics, for an agreed-upon price (Thaman) and delivery at a specified future date. The party undertaking the manufacturing is the Sani' (seller), and the party ordering is the Mustasni' (purchaser).",
+      "keywords": ["istisna'a", "definition", "fas 10", "manufacturing contract", "construction contract", "masnoo'", "thaman", "sani'", "mustasni'"]
+    },
+    {
+      "question": "What is Parallel Istisna'a as described in FAS 10?",
+      "answer": "FAS 10 (Section 1.3) describes Parallel Istisna'a as a situation where an IFI, having an Istisna'a contract as a seller (Sani') with Customer 1, enters into a separate Istisna'a contract as a purchaser (Mustasni' 2) with a third-party manufacturer (Sani' 2) to procure the same asset. The two contracts must be legally distinct.",
+      "keywords": ["parallel istisna'a", "definition", "fas 10", "separate contracts", "ifi as seller and purchaser"]
+    },
+    {
+      "question": "What is the 'Istisna'a Price (Thaman)' according to FAS 10?",
+      "answer": "As per FAS 10 (Section 1.4), the Istisna'a Price (Thaman) is the total consideration agreed upon for the manufactured or constructed asset. Payment can be made in installments, upfront, or upon delivery.",
+      "keywords": ["istisna'a price", "thaman", "definition", "fas 10", "payment terms"]
+    },
+    {
+      "question": "How does FAS 10 define the 'Subject Matter of Istisna'a (Al-Masnoo')'?",
+      "answer": "FAS 10 (Section 1.5) defines the Subject Matter of Istisna'a (Al-Masnoo') as the asset to be manufactured, constructed, or produced. It must be clearly specified regarding type, quality, quantity, materials, etc., to avoid ambiguity (Gharar).",
+      "keywords": ["subject matter of istisna'a", "al-masnoo'", "definition", "fas 10", "asset specification"]
+    },
+    {
+      "question": "What are 'Istisna'a Contract Costs' as per FAS 10?",
+      "answer": "According to FAS 10 (Section 1.6), Istisna'a Contract Costs are costs directly attributable to the specific Istisna'a contract plus an allocation of overheads directly related to the Istisna'a activities.",
+      "keywords": ["istisna'a contract costs", "definition", "direct costs", "allocated overheads", "fas 10"]
+    },
+    {
+      "question": "What are 'Progress Billings' in the context of an Istisna'a contract under FAS 10?",
+      "answer": "FAS 10 (Section 1.7) defines Progress Billings as amounts billed to the Istisna'a purchaser based on the progress of work, as stipulated in the Istisna'a contract.",
+      "keywords": ["progress billings", "definition", "istisna'a", "billing cycle", "fas 10"]
+    },
+    {
+      "question": "What is a key Shari'ah condition for the subject matter (Masnoo') in an Istisna'a contract, according to FAS 10?",
+      "answer": "FAS 10 (Section 2.1) states that the subject matter (Masnoo') must be clearly described, including its nature, kind, quantity, quality, and other specifications, to eliminate ignorance and potential for dispute.",
+      "keywords": ["istisna'a", "shari'ah condition", "masnoo' specification", "clarity", "fas 10"]
+    },
+    {
+      "question": "Does the Istisna'a price (Thaman) need to be paid upfront according to FAS 10?",
+      "answer": "No, FAS 10 (Section 2.2) clarifies that the Istisna'a price must be fixed and known at contracting, but it can be paid in installments, in a lump sum (at various points), or upon completion and delivery, as agreed by the parties.",
+      "keywords": ["istisna'a", "price payment", "thaman", "shari'ah conditions", "payment flexibility", "fas 10"]
+    },
+    {
+      "question": "Who typically provides the raw materials in an Istisna'a contract as per FAS 10?",
+      "answer": "FAS 10 (Section 2.4) indicates that raw materials are typically provided by the seller (Sani'). If the purchaser (Mustasni') provides them, the contract might be considered Ijarah (hiring) rather than Istisna'a.",
+      "keywords": ["istisna'a", "raw materials", "sani' responsibility", "ijarah distinction", "fas 10"]
+    },
+    {
+      "question": "Is an Istisna'a contract binding on both parties once concluded, according to FAS 10?",
+      "answer": "Yes, FAS 10 (Section 2.5) states that an Istisna'a contract is binding on both parties once concluded, provided it meets Shari'ah requirements. Unilateral termination without consent is generally not allowed unless for valid reasons like breach.",
+      "keywords": ["istisna'a", "binding contract", "shari'ah principle", "termination", "fas 10"]
+    },
+    {
+      "question": "How should an IFI acting as a seller (Sani') recognize Istisna'a revenue and costs if the contract outcome can be estimated reliably, as per FAS 10?",
+      "answer": "If the outcome of an Istisna'a contract can be estimated reliably, FAS 10 (Section 3.1.a) requires revenue and costs to be recognized by reference to the stage of completion of the contract activity at the reporting date (Percentage of Completion Method - POCM).",
+      "keywords": ["istisna'a", "revenue recognition", "cost recognition", "sani'", "percentage of completion method", "pocm", "reliable estimation", "fas 10"]
+    },
+    {
+      "question": "What conditions must be met for the outcome of an Istisna'a contract to be considered 'reliably estimable' for using POCM under FAS 10?",
+      "answer": "FAS 10 (Section 3.1.b) lists conditions for reliable estimation: total contract revenue measurable, probable economic benefits flow, contract costs to complete and stage of completion measurable, and attributable contract costs identifiable and measurable.",
+      "keywords": ["istisna'a", "pocm", "reliable estimation conditions", "revenue recognition", "fas 10"]
+    },
+    {
+      "question": "How is Istisna'a revenue recognized if the contract outcome cannot be estimated reliably by the IFI (as Sani') according to FAS 10?",
+      "answer": "When the outcome cannot be estimated reliably, FAS 10 (Section 3.1.c) states revenue shall be recognized only to the extent of contract costs incurred that are probable to be recoverable. Contract costs are expensed as incurred (similar to a completed contract or zero-profit method until reliability is achieved).",
+      "keywords": ["istisna'a", "revenue recognition", "sani'", "unreliable outcome", "completed contract method", "cost recovery", "fas 10"]
+    },
+    {
+      "question": "What is the accounting treatment for an expected loss on an Istisna'a contract for an IFI acting as Sani', as per FAS 10?",
+      "answer": "FAS 10 (Section 3.1.d) mandates that an expected loss on an Istisna'a contract (where total estimated costs exceed total revenue) must be recognized as an expense immediately, regardless of the stage of completion.",
+      "keywords": ["istisna'a", "expected loss", "sani'", "immediate recognition", "expense", "fas 10"]
+    },
+    {
+      "question": "How can the 'stage of completion' for an Istisna'a contract be determined under FAS 10?",
+      "answer": "FAS 10 (Section 3.2) suggests methods like: the proportion of contract costs incurred to date to estimated total costs; surveys of work performed (e.g., engineer's certification); or completion of a physical proportion of the work. Progress payments often do not reflect work performed.",
+      "keywords": ["istisna'a", "stage of completion", "determination methods", "pocm", "fas 10"]
+    },
+    {
+      "question": "What types of costs are included in 'Istisna'a contract costs' for an IFI as Sani' under FAS 10?",
+      "answer": "FAS 10 (Section 3.3) includes direct costs (site labor, materials used, depreciation of equipment on contract) and attributable/allocable costs (insurance, design assistance, construction/manufacturing overheads). Selling and general admin costs (unless reimbursable) are excluded.",
+      "keywords": ["istisna'a contract costs", "sani'", "included costs", "direct costs", "allocable overheads", "fas 10"]
+    },
+    {
+      "question": "How is the 'Gross amount due from customers for Istisna'a contract work' presented in the financial statements of an IFI (Sani') according to FAS 10?",
+      "answer": "FAS 10 (Section 3.4.a) states it's presented as 'Istisna'a Work in Progress' or 'Amount Due from Istisna'a Customers' (an asset), calculated as costs incurred plus recognized profits (less losses) minus progress billings and recognized losses.",
+      "keywords": ["istisna'a", "sani'", "financial statement presentation", "asset", "work in progress", "fas 10"]
+    },
+    {
+      "question": "When would an IFI (Sani') report an 'Amount Due to Istisna'a Customers' (a liability) under FAS 10?",
+      "answer": "An 'Amount Due to Istisna'a Customers' (liability) is reported if progress billings exceed costs incurred plus recognized profits (less recognized losses), as per FAS 10 (Section 3.4.b).",
+      "keywords": ["istisna'a", "sani'", "financial statement presentation", "liability", "excess billings", "fas 10"]
+    },
+    {
+      "question": "How should an IFI (as purchaser/Mustasni') account for payments made to a Sani' during the manufacturing period in an Istisna'a contract, according to FAS 10?",
+      "answer": "Payments made by the IFI (Mustasni') to the Sani' prior to delivery and acceptance are recognized as 'Istisna'a Work in Progress (Asset under Construction)' or 'Advances to Sani' for Istisna'a', as per FAS 10 (Section 4.1).",
+      "keywords": ["istisna'a", "mustasni'", "ifi as purchaser", "payments to sani'", "asset under construction", "fas 10"]
+    },
+    {
+      "question": "How is the 'Istisna'a Work in Progress (Asset under Construction)' measured by the IFI (Mustasni') upon completion and acceptance, according to FAS 10?",
+      "answer": "Upon completion, delivery, and acceptance of the Masnoo', FAS 10 (Section 4.4) states the 'Istisna'a Work in Progress (Asset under Construction)' is reclassified to the appropriate asset category (e.g., Inventory, PPE) and measured at its accumulated cost.",
+      "keywords": ["istisna'a", "mustasni'", "asset reclassification", "completion", "accumulated cost", "fas 10"]
+    },
+    {
+      "question": "When should an IFI (Mustasni') assess 'Istisna'a Work in Progress (Asset under Construction)' for impairment under FAS 10?",
+      "answer": "FAS 10 (Section 4.5) requires the IFI (Mustasni') to assess this asset for impairment if there are indications the Sani' may default or the asset's recoverable amount is less than payments made and costs incurred.",
+      "keywords": ["istisna'a", "mustasni'", "impairment assessment", "asset under construction", "default risk", "fas 10"]
+    },
+    {
+      "question": "How are the two contracts in a Parallel Istisna'a arrangement accounted for by an IFI under FAS 10?",
+      "answer": "In Parallel Istisna'a, the IFI's contract as seller (Sani') to Customer 1 (Section 3 rules) and its contract as purchaser (Mustasni') from Supplier/Sani' 2 (Section 4 rules) are accounted for independently and not netted off, as per FAS 10 (Sections 5.1, 5.2).",
+      "keywords": ["parallel istisna'a", "accounting treatment", "independent contracts", "no netting off", "fas 10"]
+    },
+    {
+      "question": "How is the IFI's profit or loss determined in a Parallel Istisna'a arrangement under FAS 10?",
+      "answer": "The IFI's profit/loss in Parallel Istisna'a is the difference between revenue earned from Customer 1 (as Sani') and the cost incurred procuring the asset from Sani' 2 (as Mustasni'), plus other attributable costs for managing the primary contract. (FAS 10, Section 5.3)",
+      "keywords": ["parallel istisna'a", "profit determination", "loss determination", "revenue vs cost", "fas 10"]
+    },
+    {
+      "question": "What are the implications for an IFI (Sani') if it fails to deliver an Istisna'a asset as specified, according to FAS 10 guidance?",
+      "answer": "If the IFI (Sani') fails to deliver as per specifications or time (beyond reasonable delays), FAS 10 (Section 6.1) indicates the Mustasni' (customer) may have rights to cancel, refuse delivery, or claim compensation for actual damages. The IFI should make provisions for expected losses or penalties.",
+      "keywords": ["istisna'a", "sani'", "non-performance", "seller default", "customer rights", "provisions", "fas 10"]
+    },
+    {
+      "question": "What recourse does an IFI (Mustasni') have if its Sani' (supplier) fails to deliver or delivers a defective Istisna'a asset, as per FAS 10?",
+      "answer": "If the Sani' fails to deliver or delivers defects, FAS 10 (Section 6.2) suggests the IFI (Mustasni') may demand rectification, accept with a price reduction, reject and claim payments, or claim compensation. The IFI must assess recoverability of its 'Asset under Construction'.",
+      "keywords": ["istisna'a", "mustasni'", "supplier default", "defective goods", "purchaser rights", "fas 10"]
+    },
+    {
+      "question": "What key accounting policies related to Istisna'a must be disclosed under FAS 10?",
+      "answer": "FAS 10 (Section 7.1) requires disclosure of accounting policies for Istisna'a transactions, including the method(s) used to determine Istisna'a revenue and the stage of completion of contracts in progress.",
+      "keywords": ["istisna'a", "disclosure", "accounting policies", "revenue recognition method", "stage of completion", "fas 10"]
+    },
+    {
+      "question": "What specific disclosures are required by FAS 10 for IFIs acting as a seller (Sani') in Istisna'a contracts?",
+      "answer": "For IFIs as Sani', FAS 10 (Section 7.2) requires disclosures such as: aggregate contract costs and recognized profits (less losses) for contracts in progress; advances received; retentions held by customers; gross amount due from customers; and gross amount due to customers.",
+      "keywords": ["istisna'a", "disclosure", "sani'", "seller requirements", "financial statement details", "fas 10"]
+    },
+    {
+      "question": "What information must an IFI acting as a purchaser (Mustasni') disclose regarding its Istisna'a contracts under FAS 10?",
+      "answer": "For IFIs as Mustasni', FAS 10 (Section 7.3) mandates disclosure of: the carrying amount of 'Istisna'a Work in Progress (Asset under Construction)'; aggregate payments made and commitments; and significant contract terms.",
+      "keywords": ["istisna'a", "disclosure", "mustasni'", "purchaser requirements", "asset under construction", "commitments", "fas 10"]
+    },
+    {
+      "question": "Are there specific disclosure requirements for Parallel Istisna'a arrangements in FAS 10?",
+      "answer": "Yes, FAS 10 (Section 7.4) requires details related to Parallel Istisna'a arrangements to be disclosed, clarifying the distinct nature of the linked contracts if material.",
+      "keywords": ["parallel istisna'a", "disclosure", "distinct contracts", "materiality", "fas 10"]
+    }
+  ]

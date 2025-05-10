@@ -1,0 +1,77 @@
+Section 1: Scope and Definitions
+1.1. This standard prescribes the accounting and reporting principles for Istisna'a and Parallel Istisna'a transactions entered into by Islamic Financial Institutions (IFIs).
+1.2. Istisna'a: A contract for manufacturing, constructing, or producing an asset (the "Subject Matter" or "Masnoo'") with specified characteristics, materials, and workmanship, for an agreed-upon price ("Thaman") and delivery at a specified future date. The party undertaking the manufacturing/construction is the seller ("Sani'"), and the party ordering the asset is the purchaser ("Mustasni'"). The IFI can be either the Sani' or the Mustasni'.
+1.3. Parallel Istisna'a: A transaction where an IFI, having entered into an Istisna'a contract as a seller (Sani') to deliver an asset to a customer (Mustasni' 1), enters into a separate Istisna'a contract as a purchaser (Mustasni' 2) with a third-party manufacturer/contractor (Sani' 2) to procure or construct the same asset. The two Istisna'a contracts must be legally distinct.
+1.4. Istisna'a Price (Thaman): The total consideration agreed upon for the manufactured or constructed asset. Payment of the price can be made in installments, upfront, or upon delivery, as agreed between the parties.
+1.5. Subject Matter of Istisna'a (Al-Masnoo'): The asset to be manufactured, constructed, or produced. It must be clearly specified regarding type, quality, quantity, materials, and other relevant characteristics to avoid ambiguity (Gharar).
+1.6. Istisna'a Contract Costs: Costs directly attributable to the specific Istisna'a contract plus an allocation of overheads directly related to the Istisna'a activities.
+1.7. Progress Billings: Amounts billed to the Istisna'a purchaser based on the progress of work, as stipulated in the Istisna'a contract.
+Section 2: Shari'ah Conditions and Basic Principles for Istisna'a
+2.1. The subject matter (Masnoo') must be clearly described, including its nature, kind, quantity, quality, and any other specifications that would eliminate ignorance and potential for dispute.
+2.2. The price (Thaman) must be fixed and known at the time of contracting. It can be paid in installments, in a lump sum at the beginning, during the project, or upon completion and delivery, as agreed.
+2.3. The time of delivery must be specified. However, flexibility is allowed for delays common in manufacturing or construction.
+2.4. The raw materials to be used in manufacturing or construction are typically provided by the seller (Sani'). If the purchaser (Mustasni') provides the raw materials, the contract might be considered Ijarah (hiring of services) rather than Istisna'a.
+2.5. An Istisna'a contract is binding on both parties once concluded, provided it meets all Shari'ah requirements. Neither party can unilaterally terminate the contract without the other's consent unless there are valid reasons (e.g., breach of contract).
+2.6. It is permissible for the Sani' (seller/manufacturer) to subcontract parts or all of the work to another party (Parallel Istisna'a by the Sani'), unless the contract requires the Sani's personal work.
+Section 3: Accounting by the IFI as the Seller (Sani') in an Istisna'a Contract
+3.1. Recognition of Istisna'a Revenue and Costs:
+a) Revenue and costs associated with an Istisna'a contract shall be recognized by reference to the stage of completion of the contract activity at the reporting date (the "Percentage of Completion Method" - POCM) if the outcome of the Istisna'a contract can be estimated reliably.
+b) The outcome of an Istisna'a contract can be estimated reliably when all the following conditions are satisfied:
+i. Total contract revenue can be measured reliably.
+ii. It is probable that the economic benefits associated with the contract will flow to the IFI.
+iii. Both the contract costs to complete the contract and the stage of contract completion at the reporting date can be measured reliably.
+iv. The contract costs attributable to the contract can be clearly identified and measured reliably so that actual contract costs incurred can be compared with prior estimates.
+c) When the outcome of an Istisna'a contract cannot be estimated reliably:
+i. Revenue shall be recognized only to the extent of contract costs incurred that it is probable will be recoverable.
+ii. Contract costs shall be recognized as an expense in the period in which they are incurred.
+This is often referred to as the "Completed Contract Method" or a zero-profit recognition until completion/reliable estimation is possible.
+d) An expected loss on an Istisna'a contract (i.e., when total estimated contract costs exceed total contract revenue) shall be recognized as an expense immediately, irrespective of the stage of completion.
+3.2. Determining Stage of Completion: The stage of completion may be determined in a variety of ways. The IFI uses the method that measures reliably the work performed. Depending on the nature of the contract, the methods may include:
+a) The proportion that contract costs incurred for work performed to date bear to the estimated total contract costs.
+b) Surveys of work performed (e.g., architect's or engineer's certification).
+c) Completion of a physical proportion of the contract work.
+Progress payments and advances received from customers often do not reflect the work performed.
+3.3. Contract Costs:
+a) Istisna'a contract costs should include costs that relate directly to the specific contract and costs that are attributable to contract activity in general and can be allocated to the contract.
+b) Costs that relate directly to a specific contract include: site labor costs (including supervision), cost of materials used, depreciation of plant and equipment used on the contract, costs of moving plant, equipment, and materials to and from the contract site, etc.
+c) Costs that may be attributable to contract activity in general and can be allocated to specific contracts include: insurance, design and technical assistance not directly related to a specific contract, and construction/manufacturing overheads.
+d) Selling costs and general administrative costs for which reimbursement is not specified in the contract are excluded from contract costs. Costs incurred before securing the contract (pre-contract costs) are usually expensed, unless they are separately identifiable, probable to be recovered, and the contract is secured.
+3.4. Presentation in Financial Statements (IFI as Seller/Sani'):
+a) The gross amount due from customers for contract work is presented as "Istisna'a Work in Progress" or "Amount Due from Istisna'a Customers" (an asset). This is calculated as costs incurred plus recognized profits (or less recognized losses) less progress billings and recognized losses.
+b) If progress billings exceed costs incurred plus recognized profits (less recognized losses), the net amount is presented as "Amount Due to Istisna'a Customers" (a liability) or "Advances from Istisna'a Customers".
+c) "Advances Received" for Istisna'a work not yet performed should be recognized as a liability.
+Section 4: Accounting by the IFI as the Purchaser (Mustasni') in an Istisna'a Contract
+4.1. When an IFI enters into an Istisna'a contract as a purchaser (Mustasni'), payments made to the Sani' (seller/manufacturer) during the manufacturing/construction period, prior to delivery and acceptance of the asset, shall be recognized as "Istisna'a Work in Progress (Asset under Construction)" or "Advances to Sani' for Istisna'a".
+4.2. This asset is initially measured at the cost of payments made.
+4.3. Any direct costs incurred by the IFI (Mustasni') attributable to the Istisna'a contract, such as inspection costs or non-refundable advances, should be added to the cost of the Istisna'a asset under construction.
+4.4. Upon completion, delivery, and acceptance of the Masnoo' (subject matter) from the Sani', the "Istisna'a Work in Progress (Asset under Construction)" is reclassified to the appropriate asset category based on its intended use by the IFI (e.g., Inventory if intended for sale, Property, Plant and Equipment if for own use, Investment Property, etc.). The asset is measured at its accumulated cost at this point.
+4.5. If there are indications that the Sani' may default or the asset's recoverable amount is less than the payments made and costs incurred, the IFI (Mustasni') must assess the "Istisna'a Work in Progress (Asset under Construction)" for impairment.
+Section 5: Parallel Istisna'a
+5.1. In a Parallel Istisna'a, the IFI has two separate contracts:
+a) Original Istisna'a: IFI is the seller (Sani') to Customer 1. This is accounted for as per Section 3.
+b) Second Istisna'a: IFI is the purchaser (Mustasni') from Supplier/Subcontractor (Sani' 2). This is accounted for as per Section 4.
+5.2. The two contracts are accounted for independently. The revenue from the first Istisna'a (IFI as Sani') and the costs associated with the second Istisna'a (IFI as Mustasni' acquiring the asset from Sani' 2) are not netted off in the financial statements unless specific offsetting criteria are met (which is rare for legally separate contracts).
+5.3. The profit or loss for the IFI in a Parallel Istisna'a arrangement is the difference between the revenue earned from Customer 1 (as Sani') and the cost incurred in procuring the asset from Sani' 2 (as Mustasni'), plus any other directly attributable costs and allocated overheads for managing the primary contract.
+5.4. The timing of revenue recognition from Customer 1 (original Istisna'a) and cost recognition for the asset from Sani' 2 (second Istisna'a) will depend on the progress and reliable estimation capabilities for each contract separately.
+Section 6: Non-Performance or Defective Performance
+6.1. If IFI is the Sani' (Seller):
+a) If the IFI fails to deliver the asset as per specifications or time (beyond reasonable delays), the Mustasni' (customer) may have the right to cancel the contract, refuse delivery, or claim compensation for actual damages, as per the contract terms and Shari'ah.
+b) The IFI should make provisions for expected losses, penalties, or rectification costs if non-performance or defective performance is probable.
+6.2. If IFI is the Mustasni' (Purchaser):
+a) If the Sani' (supplier/manufacturer) fails to deliver the asset as specified, or there are defects, the IFI may have recourse as stipulated in the contract, such as demanding rectification, accepting the asset with a price reduction, rejecting it and claiming payments made, or claiming compensation for actual damages.
+b) The IFI should assess the recoverability of its "Istisna'a Work in Progress (Asset under Construction)" and make provisions for any shortfall.
+Section 7: Disclosures
+7.1. The accounting policies adopted for Istisna'a transactions, including the method(s) used to determine Istisna'a revenue and the stage of completion of contracts in progress.
+7.2. For IFIs acting as Sani' (Seller):
+a) The aggregate amount of contract costs incurred and recognized profits (less recognized losses) to date for contracts in progress.
+b) The amount of advances received from Istisna'a customers.
+c) The amount of retentions held by customers.
+d) Gross amount due from customers for Istisna'a contract work (asset).
+e) Gross amount due to customers for Istisna'a contract work (liability).
+f) Details of any significant Istisna'a contracts, or concentrations of risk.
+7.3. For IFIs acting as Mustasni' (Purchaser):
+a) The carrying amount of "Istisna'a Work in Progress (Asset under Construction)".
+b) The aggregate amount of payments made and commitments for Istisna'a contracts.
+c) Significant terms of Istisna'a contracts.
+7.4. Details related to Parallel Istisna'a arrangements, clarifying the distinct nature of the linked contracts if material.
+7.5. Contingent liabilities and contingent assets related to Istisna'a contracts (e.g., guarantees, penalties, claims).

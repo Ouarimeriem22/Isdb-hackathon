@@ -1,0 +1,106 @@
+Section 1: Scope and Definitions
+1.1. This standard prescribes the accounting and reporting principles for Ijarah (leasing) and Ijarah Muntahia Bittamleek (IMB - lease ending with ownership transfer) transactions entered into by Islamic Financial Institutions (IFIs), whether acting as a lessor (Mu’jir) or a lessee (Musta’jir).
+1.2. Ijarah: A contract whereby a lessor (Mu’jir) transfers the right to use an asset (the usufruct or "Manfa'ah") to a lessee (Musta’jir) for an agreed period in return for an agreed consideration (rent or "Ujrah"). Ownership of the asset remains with the lessor.
+1.3. Ijarah Muntahia Bittamleek (IMB): A form of Ijarah contract which includes a promise by the lessor to transfer the ownership of the leased asset to the lessee at the end of the lease term or by stages during the term of Ijarah, provided all Ijarah installments are paid. The transfer of ownership is typically effected through a separate contract (e.g., sale, gift, or at nominal value) at the end of the lease.
+1.4. Operating Ijarah: An Ijarah contract that does not substantially transfer all the risks and rewards incidental to ownership of the leased asset from the lessor to the lessee. The leased asset is typically returned to the lessor at the end of the lease term. This standard primarily uses criteria similar to conventional operating leases to distinguish them.
+1.5. Financing Ijarah (often pertaining to IMB): An Ijarah contract (particularly IMB) that substantially transfers all the risks and rewards incidental to ownership of an asset to the lessee. Title may or may not eventually be transferred. From the lessor's perspective, this is akin to financing the acquisition of an asset for the lessee.
+1.6. Ujrah (Rent): The consideration paid by the lessee to the lessor for the use of the leased asset. It can be fixed, variable (linked to a known benchmark), or a combination.
+1.7. Manfa'ah (Usufruct): The right to use and benefit from an asset.
+1.8. Leased Asset (Ayn al-Mu’jarah): The specific asset whose usufruct is transferred under the Ijarah contract.
+1.9. Lease Term: The non-cancellable period for which the lessee has contracted to lease the asset, together with any further terms for which the lessee has the option to continue to lease the asset, with or without further payment, when at the inception of the lease it is reasonably certain that the lessee will exercise the option.
+Section 2: Shari'ah Principles and Basic Conditions for Ijarah
+2.1. The subject matter of Ijarah is the usufruct (Manfa'ah) of the asset, not the asset itself.
+2.2. The leased asset must exist and be owned by the lessor (or the lessor must have the right to lease it, e.g., through a sublease with permission) at the time of entering into the Ijarah contract or commencement of the lease term. The lessor bears the ownership risks.
+2.3. The leased asset must be capable of being used while preserving the asset itself (i.e., non-consumable).
+2.4. The usufruct must be specified and known to both parties to avoid ambiguity (Gharar).
+2.5. The rent (Ujrah) must be specified and known. It can be fixed or variable (e.g., linked to a Shari’ah-compliant benchmark, re-determined at agreed intervals).
+2.6. The lease period must be specified.
+2.7. All liabilities arising from ownership (e.g., basic maintenance essential for keeping the asset in a condition to deliver the usufruct, major repairs, Takaful/insurance if required to protect the asset itself) are the responsibility of the lessor. Operational maintenance and routine upkeep (related to usage) are typically the lessee's responsibility unless otherwise agreed.
+2.8. In IMB, the promise to transfer ownership must be separate from the Ijarah (lease) contract itself, though it can be documented in conjunction with it. The transfer mechanism (e.g., sale, gift) must be clearly stipulated.
+2.9. Penalties for late payment of rent by the lessee must conform to Shari'ah principles (e.g., amounts for charity or actual compensation).
+Section 3: Accounting for Ijarah by the Lessor (IFI as Mu’jir)
+3.1. Classification of Ijarah:
+a) Operating Ijarah: If the Ijarah contract does not substantially transfer risks and rewards incidental to ownership to the lessee.
+b) Financing Ijarah (primarily for IMB leading to ownership transfer): If the Ijarah contract substantially transfers risks and rewards incidental to ownership to the lessee. Indicators (similar to conventional finance lease criteria) include:
+i. The lease transfers ownership of the asset to the lessee by the end of the lease term (a key feature of IMB).
+ii. The lessee has the option to purchase the asset at a price expected to be sufficiently lower than fair value at the date the option becomes exercisable, making it reasonably certain at inception that the option will be exercised.
+iii. The lease term is for the major part of the economic life of the asset, even if title is not transferred.
+iv. At inception, the present value of the minimum lease payments amounts to at least substantially all of the fair value of the leased asset.
+3.2. Accounting for Operating Ijarah by Lessor:
+a) Leased assets under operating Ijarah shall be presented in the lessor's statement of financial position according to the nature of the asset (e.g., "Property and Equipment leased out" or "Ijarah Assets").
+b) Leased assets are initially measured at cost and subsequently depreciated over their useful economic lives, consistent with the lessor's normal depreciation policy for similar assets. Impairment losses are recognized if the asset's recoverable amount falls below its carrying amount.
+c) Ijarah income (rent) shall be recognized on a straight-line basis over the lease term, even if the receipts are not on such a basis, unless another systematic basis is more representative of the time pattern in which the benefit from the use of the leased asset is diminished.
+d) Costs, including depreciation, incurred in earning the Ijarah income are recognized as an expense. Initial direct costs incurred by lessors in negotiating and arranging an operating lease are added to the carrying amount of the leased asset and recognized as an expense over the lease term on the same basis as the lease income.
+3.3. Accounting for Financing Ijarah by Lessor (often for IMB):
+a) The lessor shall recognize an "Ijarah Receivable" or "Net Investment in Ijarah" at an amount equal to the net investment in the lease. The net investment in the lease is the gross investment in the lease (total minimum lease payments receivable by the lessor plus any unguaranteed residual value accruing to the lessor) discounted at the implicit interest rate in the lease (or an equivalent Shari'ah compliant profit rate).
+b) The leased asset itself is derecognized from the lessor's books when the lease commences under a financing Ijarah arrangement.
+c) Recognition of finance income (profit element in Ijarah payments) shall be based on a pattern reflecting a constant periodic rate of return on the lessor's net investment in the financing Ijarah.
+d) Initial direct costs incurred by the lessor are often included in the initial measurement of the Ijarah receivable and reduce the amount of income recognized over the lease term.
+3.4. Sub-leasing (IFI as Intermediate Lessor): If an IFI leases an asset and then sub-leases it, accounting will depend on the classification of both the head lease and the sub-lease.
+Section 4: Accounting for Ijarah by the Lessee (IFI as Musta’jir)
+4.1. Classification of Ijarah (from Lessee's perspective): Similar criteria as for the lessor are used.
+a) Operating Ijarah: Does not substantially transfer risks and rewards.
+b) Financing Ijarah: Substantially transfers risks and rewards.
+4.2. Accounting for Operating Ijarah by Lessee:
+a) Ijarah rental payments under an operating lease shall be recognized as an expense ("Ijarah Expense" or "Rental Expense") on a straight-line basis over the lease term, unless another systematic basis is more representative of the time pattern of the user's benefit.
+b) No asset or liability related to the future lease payments is recognized on the statement of financial position, except for accruals or prepayments of rent.
+4.3. Accounting for Financing Ijarah by Lessee (often for IMB):
+a) At the commencement of the lease term, the lessee shall recognize the financing Ijarah as an asset ("Leased Asset under Ijarah" or "Right-of-Use Asset") and a liability ("Ijarah Liability" or "Obligation under Financing Ijarah") at amounts equal to the fair value of the leased property or, if lower, the present value of the minimum lease payments. The discount rate to be used in calculating the present value is the implicit rate in the lease, if determinable; if not, the lessee's incremental borrowing rate (or a Shari'ah compliant equivalent benchmark).
+b) The Leased Asset is depreciated over the shorter of the lease term and its useful life, unless there is reasonable certainty that the lessee will obtain ownership by the end of the lease term (common in IMB), in which case it is depreciated over its useful life.
+c) Ijarah payments shall be apportioned between the finance charge (profit element) and the reduction of the outstanding Ijarah liability. The finance charge is allocated to periods during the lease term so as to produce a constant periodic rate of "interest" (profit) on the remaining balance of the liability.
+4.4. Sale and Leaseback Transactions resulting in Ijarah:
+a) If a sale and leaseback transaction results in a financing Ijarah (e.g., IFI sells an asset and leases it back under terms that transfer risks/rewards), any excess of sale proceeds over the carrying amount shall not be immediately recognized as income but deferred and amortized over the lease term.
+b) If it results in an operating Ijarah:
+i. If the sale price is at fair value, any profit or loss is recognized immediately.
+ii. If the sale price is below fair value, any profit or loss is recognized immediately, unless the loss is compensated by future lease payments at below market price, in which case it is deferred and amortized.
+iii. If the sale price is above fair value, the excess over fair value is deferred and amortized over the period for which the asset is expected to be used.
+Section 5: Ijarah Muntahia Bittamleek (IMB) Specifics
+5.1. The accounting for IMB typically follows the financing Ijarah model for both lessor and lessee, given the intention and high probability of ownership transfer.
+5.2. Transfer of Asset Ownership at the end of IMB:
+a) Lessor: When the asset is transferred to the lessee (e.g., via sale at nominal value, pre-agreed price, or gift), the lessor derecognizes any remaining net investment in the Ijarah receivable and recognizes any final settlement amount received.
+b) Lessee: If the transfer is via a pre-agreed purchase option exercised by the lessee:
+i. The lessee pays the option price.
+ii. The "Leased Asset under Ijarah" (or ROU asset) and accumulated depreciation are adjusted to reflect full ownership. The asset is reclassified from a leased asset to an owned asset. The carrying amount after transfer may be the sum of the carrying value of the ROU asset at transfer and the option price paid.
+c) If transfer is by gift, the asset becomes fully owned at its then-carrying amount (from ROU asset perspective).
+5.3. Variable Ijarah payments in IMB that are not fixed or determinable at inception (e.g., based on future performance) are typically expensed by the lessee and recognized as income by the lessor when incurred/earned, unless they relate to covering specific lessor ownership costs.
+Section 6: Disclosures
+6.1. For Lessors (IFI as Mu’jir):
+a) Accounting policy adopted for recognizing Ijarah income.
+b) For operating Ijarah: Gross carrying amount, accumulated depreciation, and accumulated impairment losses for leased assets; future minimum lease payments receivable.
+c) For financing Ijarah: Reconciliation between gross investment in the lease and the present value of minimum lease payments receivable; unearned finance income; unguaranteed residual values; future minimum lease payments receivable.
+d) General description of the lessor's material Ijarah arrangements.
+6.2. For Lessees (IFI as Musta’jir):
+a) Accounting policy adopted.
+b) For operating Ijarah: Total Ijarah expense recognized in the period; future minimum lease payments.
+c) For financing Ijarah: Net carrying amount for each class of leased asset; reconciliation between total future minimum lease payments and their present value; total future minimum lease payments and their present value for specified future periods.
+d) General description of the lessee's material Ijarah arrangements.
+6.3. For IMB, disclosures should reflect its nature as typically a financing Ijarah leading to ownership, including terms of ownership transfer.
+6.4. Restrictions imposed by Ijarah arrangements (e.g., on dividends, additional debt, further leasing).
+6.5. Contingent rents recognized as income/expense.
+Section 7: Transitional Provisions
+7.1. Effective Date: This Financial Accounting Standard becomes effective for financial statements covering periods beginning on or after [e.g., 1 January 20XX or 1 Muharram 14XXH]. Early adoption is [e.g., encouraged / permitted]. If an IFI applies this standard for a period beginning before [e.g., 1 January 20XX], it shall disclose that fact.
+7.2. Retrospective Application:
+a) Subject to paragraph 7.2.c, IFIs shall apply this standard retrospectively to all Ijarah and Ijarah Muntahia Bittamleek contracts existing at the date of initial application, in accordance with FAS 1 "General Presentation and Disclosure in the Financial Statements of Islamic Banks and Financial Institutions" (or equivalent general accounting policy standard) regarding changes in accounting policies. This means that comparative information for the preceding period shall be restated as if this standard had always been in effect, unless impracticable.
+b) Retrospective application involves:
+i. Reclassifying Ijarah contracts as either operating or financing Ijarah based on the conditions existing at the inception of the lease, using the criteria outlined in this standard.
+ii. For lessors, remeasuring assets leased out under operating Ijarah and net investments in financing Ijarah.
+iii. For lessees, recognizing assets and liabilities for Ijarah contracts now classified as financing Ijarah, and derecognizing any previously recognized assets/liabilities under prior methods if different.
+iv. Adjusting retained earnings (or equivalent equity account) at the beginning of the earliest period presented for any cumulative effect of the initial application.
+c) Impracticability of Retrospective Application: If retrospective application to one or more specific Ijarah contracts is impracticable (i.e., the IFI cannot apply it after making every reasonable effort to do so), the IFI shall:
+i. Apply this standard to the carrying amounts of Ijarah assets and liabilities as at the beginning of the earliest period for which retrospective application is practicable, which may be the current period, and
+ii. Make a corresponding adjustment to the opening balance of retained earnings (or other component of equity, as appropriate) of that period.
+iii. Disclose the fact that retrospective application was impracticable for certain contracts and describe how the standard has been applied to these contracts.
+7.3. Leases Existing at Transition Date - Specific Reliefs (Examples of what might be included):
+a) Lessor Classification: For leases existing at the transition date, a lessor is not required to reassess the classification of a lease previously classified as a financing lease under prior national GAAP or IFRS (if analogous criteria were used), provided the classification was appropriate under those standards. However, leases previously classified as operating leases must be reassessed against the criteria in this standard.
+b) Lessee Classification: Similarly, a lessee is not required to reassess existing leases if a previous classification as a finance lease under broadly similar prior GAAP was made. All operating leases must be reassessed.
+c) Initial Direct Costs: IFIs are not required to retrospectively capitalize initial direct costs for operating Ijarah if such costs were expensed under previous policies.
+7.4. Disclosure of Transition Impact:
+a) When this standard is first applied, the IFI shall disclose:
+i. The title of the Financial Accounting Standard.
+ii. The fact that the accounting policy for Ijarah transactions has been changed.
+iii. A description of the transitional provisions adopted.
+iv. The nature of the change in accounting policy.
+v. The amounts of adjustment for the current period and each prior period presented, to the extent practicable, for each financial statement line item affected.
+vi. The amount of the adjustment relating to periods prior to those presented, to the extent practicable.
+vii. If retrospective application was impracticable for a particular prior period, or for periods prior to those presented, the circumstances that led to the existence of that condition and a description of how the change in accounting policy has been applied from the earliest practicable date.
+7.5. Supersession: This standard supersedes any previous [e.g., technical releases, guidance notes, or specific sections of other standards] issued by AAOIFI concerning the accounting for Ijarah and Ijarah Muntahia Bittamleek to the extent that they conflict with the provisions herein.

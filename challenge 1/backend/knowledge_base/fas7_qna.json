@@ -1,0 +1,127 @@
+[
+    {
+      "question": "What is the scope of AAOIFI Financial Accounting Standard (FAS) 7?",
+      "answer": "FAS 7 (Section 1.1) prescribes the accounting and reporting principles for Salam and Parallel Salam transactions entered into by Islamic Financial Institutions (IFIs).",
+      "keywords": ["scope", "fas 7", "salam", "parallel salam", "ifi"]
+    },
+    {
+      "question": "How does FAS 7 define a Salam contract?",
+      "answer": "According to FAS 7 (Section 1.2), Salam is a sale contract where a commodity (Al-Muslam Fihi) of specified quantity and quality is sold for a price (Salam capital) paid in full at contract execution, with delivery of the commodity deferred to a future specified date. The IFI is typically the purchaser paying upfront.",
+      "keywords": ["salam", "definition", "fas 7", "deferred delivery", "upfront payment", "al-muslam fihi", "salam capital"]
+    },
+    {
+      "question": "What is Parallel Salam as defined in FAS 7?",
+      "answer": "FAS 7 (Section 1.3) defines Parallel Salam as a separate transaction where an IFI, acting as a seller, agrees to sell a commodity (usually similar to one expected from an original Salam contract) to a third party for future delivery. The two Salam contracts must be distinct and legally separate.",
+      "keywords": ["parallel salam", "definition", "fas 7", "independent contract", "ifi as seller"]
+    },
+    {
+      "question": "What is 'Salam Capital' according to FAS 7?",
+      "answer": "FAS 7 (Section 1.4) defines Salam Capital (or price) as the amount paid in full by the purchaser (IFI) to the seller at the time of concluding the Salam contract. It can be cash or in kind, fully specified and delivered.",
+      "keywords": ["salam capital", "salam price", "thaman", "definition", "fas 7", "full payment"]
+    },
+    {
+      "question": "How does FAS 7 describe the 'Salam Asset' or 'Al-Muslam Fihi'?",
+      "answer": "As per FAS 7 (Section 1.5), the Salam Asset (Al-Muslam Fihi) is the good or commodity the seller undertakes to deliver at a future date. It must be fungible and precisely described by quantity, quality, and specifications to remove ambiguity (Gharar).",
+      "keywords": ["salam asset", "al-muslam fihi", "commodity", "definition", "fas 7", "fungible", "specified"]
+    },
+    {
+      "question": "What is a key Shari'ah condition regarding the payment of Salam capital according to FAS 7?",
+      "answer": "FAS 7 (Section 2.1) states a key Shari'ah condition is that the Salam price (capital) must be paid in full by the purchaser to the seller at the time of contract execution. Partial payment invalidates the Salam contract.",
+      "keywords": ["salam", "shari'ah condition", "salam capital", "full payment", "contract execution", "fas 7"]
+    },
+    {
+      "question": "How must the Salam asset (commodity) be specified in a Salam contract as per FAS 7?",
+      "answer": "According to FAS 7 (Section 2.2), the Salam asset must be clearly specified in terms of type, quality, quantity, and place of delivery, to avoid ambiguity or potential dispute.",
+      "keywords": ["salam", "asset specification", "commodity description", "shari'ah condition", "fas 7"]
+    },
+    {
+      "question": "What does FAS 7 say about the delivery date and place in a Salam contract?",
+      "answer": "FAS 7 (Section 2.4) requires that the date and place of delivery must be clearly specified in the Salam contract. If the place is not specified, the place of contract is considered the place of delivery.",
+      "keywords": ["salam", "delivery date", "delivery place", "specification", "fas 7"]
+    },
+    {
+      "question": "How should an IFI recognize the payment made for a Salam contract (as purchaser) initially, according to FAS 7?",
+      "answer": "When an IFI (as purchaser) pays the Salam capital, FAS 7 (Section 3.1) states this amount should be recognized as 'Salam Receivable' or 'Salam Asset' in the statement of financial position, representing the right to receive the commodity.",
+      "keywords": ["salam", "initial recognition", "ifi as purchaser", "salam receivable", "salam asset", "fas 7"]
+    },
+    {
+      "question": "At what value is the Salam receivable/asset initially measured by the IFI under FAS 7?",
+      "answer": "FAS 7 (Section 3.2) dictates that the Salam receivable/asset is initially measured at the amount of the Salam capital paid to the seller. Direct transaction costs may be added if attributable.",
+      "keywords": ["salam", "initial measurement", "salam receivable", "salam capital", "transaction costs", "fas 7"]
+    },
+    {
+      "question": "What is required by FAS 7 regarding the Salam receivable/asset prior to the delivery of the commodity?",
+      "answer": "FAS 7 (Section 4.1.a) requires that, prior to delivery, the Salam receivable/asset be regularly reviewed for any indication that the seller might not be able to deliver the commodity as agreed.",
+      "keywords": ["salam", "subsequent measurement", "pre-delivery", "review for default", "fas 7"]
+    },
+    {
+      "question": "When should an IFI recognize a provision for impairment losses on a Salam receivable/asset, as per FAS 7?",
+      "answer": "If there is objective evidence of potential default or significant impairment in the seller's ability to deliver the Salam commodity (e.g., crop failure for that seller), FAS 7 (Section 4.1.b) mandates recognizing a provision for impairment losses on the Salam receivable/asset.",
+      "keywords": ["salam", "provision for impairment", "default risk", "objective evidence", "fas 7"]
+    },
+    {
+      "question": "How is a commodity received under a Salam contract recognized and measured by the IFI at delivery, according to FAS 7?",
+      "answer": "Upon delivery and acceptance, the Salam receivable/asset is derecognized. The commodity received is recognized as an asset (e.g., 'Inventory from Salam') and measured at its fair value at delivery if for immediate sale or Parallel Salam, or at the Salam receivable's carrying amount (adjusted for provisions) if held as regular inventory (not exceeding NRV). (FAS 7, Section 4.2.a, 4.2.b)",
+      "keywords": ["salam", "commodity received", "recognition", "measurement", "fair value", "inventory", "fas 7"]
+    },
+    {
+      "question": "How is profit or loss recognized if an IFI sells the Salam commodity on the spot upon delivery?",
+      "answer": "FAS 7 (Section 4.2.c) states if an IFI sells the Salam commodity on the spot upon delivery, any difference between the spot selling price and the carrying amount of the Salam receivable/asset (original Salam capital) is recognized as profit or loss from the Salam transaction at that point.",
+      "keywords": ["salam", "spot sale", "profit recognition", "loss recognition", "delivery", "fas 7"]
+    },
+    {
+      "question": "What are the IFI's rights if the seller completely fails to deliver the Salam commodity, as per FAS 7?",
+      "answer": "If the seller completely fails to deliver, FAS 7 (Section 5.1) outlines that the IFI (purchaser) can cancel the contract and recover the Salam capital, agree to wait, substitute the commodity (with consent), or accept a cash settlement equivalent to market value (if Shari'a compliant).",
+      "keywords": ["salam", "non-delivery", "seller default", "ifi rights", "contract cancellation", "capital recovery", "fas 7"]
+    },
+    {
+      "question": "How should an IFI account for a partial delivery or delivery of non-conforming goods in a Salam contract according to FAS 7?",
+      "answer": "For partial delivery, the IFI accepts the delivered portion and claims the rest. For non-conforming goods, FAS 7 (Section 5.2) allows the IFI to reject them (claiming capital/substitute), accept them at lower market value (with refund/as full satisfaction), or accept with a price reduction by mutual consent. Adjustments affect inventory value and potential gains/losses.",
+      "keywords": ["salam", "partial delivery", "non-conforming goods", "ifi options", "accounting treatment", "fas 7"]
+    },
+    {
+      "question": "How is a Parallel Salam transaction, where the IFI is the seller, treated in relation to the original Salam contract under FAS 7?",
+      "answer": "FAS 7 (Section 6.1) emphasizes that a Parallel Salam transaction, where the IFI is the seller, is treated as a separate and legally distinct transaction from the initial Salam contract where the IFI was the purchaser.",
+      "keywords": ["parallel salam", "separate transaction", "ifi as seller", "legal distinction", "fas 7"]
+    },
+    {
+      "question": "How does an IFI account for the price received upfront in a Parallel Salam contract, as per FAS 7?",
+      "answer": "If the IFI receives the price (Parallel Salam capital) upfront from the third-party buyer in a Parallel Salam, FAS 7 (Section 6.2.a) requires this amount to be recognized as a liability, such as 'Deferred Revenue from Parallel Salam' or 'Advance from Parallel Salam Customer'.",
+      "keywords": ["parallel salam", "upfront payment received", "ifi as seller", "liability recognition", "deferred revenue", "fas 7"]
+    },
+    {
+      "question": "When is revenue from a Parallel Salam contract (where IFI is seller) recognized according to FAS 7?",
+      "answer": "FAS 7 (Section 6.3.a) states that revenue from a Parallel Salam contract is recognized when the IFI fulfills its obligation to deliver the commodity to the Parallel Salam buyer. This is typically when the commodity is delivered and risks/rewards are transferred.",
+      "keywords": ["parallel salam", "revenue recognition", "ifi as seller", "delivery obligation", "fas 7"]
+    },
+    {
+      "question": "Can an IFI net off its obligations under Parallel Salam with its receivables under an original Salam contract, according to FAS 7?",
+      "answer": "No, FAS 7 (Section 6.4) explicitly prohibits netting off obligations under Parallel Salam with receivables under the original Salam contract in financial statements, as they are legally distinct.",
+      "keywords": ["parallel salam", "netting off", "prohibition", "financial statements", "fas 7"]
+    },
+    {
+      "question": "Does FAS 7 allow an IFI to sell a commodity purchased on Salam before taking possession of it?",
+      "answer": "No, FAS 7 (Section 7.1) reiterates the fundamental Shari'ah principle that an IFI cannot sell a commodity it purchased on Salam *before* taking actual or constructive possession from the original Salam seller.",
+      "keywords": ["salam", "sale before possession", "shari'ah prohibition", "constructive possession", "fas 7"]
+    },
+    {
+      "question": "What are some key disclosure requirements for Salam and Parallel Salam transactions under FAS 7 Section 8?",
+      "answer": "Key disclosures under FAS 7 (Section 8) include: accounting policies for Salam/Parallel Salam; total Salam capital paid and outstanding; maturity analysis of Salam receivables; provisions for impairment; inventory from Salam; advances received under Parallel Salam; revenue from Parallel Salam; significant commitments; and concentrations of risk.",
+      "keywords": ["salam", "parallel salam", "disclosure requirements", "financial statements", "fas 7"]
+    },
+    {
+      "question": "Is the disclosure of accounting policies for Salam and Parallel Salam mandated by FAS 7?",
+      "answer": "Yes, FAS 7 (Section 8.1) requires IFIs to disclose the accounting policies adopted for Salam and Parallel Salam transactions, including methods for recognition and measurement.",
+      "keywords": ["salam", "parallel salam", "disclosure", "accounting policies", "fas 7"]
+    },
+    {
+      "question": "What information about Salam receivables should be disclosed according to FAS 7?",
+      "answer": "FAS 7 (Sections 8.2, 8.3, 8.4) requires disclosure of the total Salam capital paid and outstanding as 'Salam Receivables', a maturity analysis of these receivables, and the amount of provisions recognized for their impairment or potential defaults.",
+      "keywords": ["salam", "disclosure", "salam receivables", "maturity analysis", "provisions", "fas 7"]
+    },
+    {
+      "question": "What liabilities related to Parallel Salam must be disclosed by an IFI under FAS 7?",
+      "answer": "According to FAS 7 (Section 8.6), IFIs must disclose the total amount of advances received from customers under Parallel Salam contracts (e.g., 'Deferred Revenue from Parallel Salam') and recognized as liabilities.",
+      "keywords": ["parallel salam", "disclosure", "liabilities", "advances from customers", "deferred revenue", "fas 7"]
+    }
+  ]

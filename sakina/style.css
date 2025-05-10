@@ -1,0 +1,262 @@
+:root {
+    --primary-green: #0A4F3A; /* Darker, richer green */
+    --accent-gold: #DAA520;   /* A sophisticated gold */
+    --dark-bg: #1c1c1c;
+    --light-text: #f8f9fa;
+    --card-bg: #ffffff;
+    --text-dark: #333333;
+    --text-medium: #555555;
+    --placeholder-accent: #a0a0a0; /* Muted color for placeholder borders */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5; /* Lighter background for body */
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--accent-gold);
+}
+.logo i {
+    margin-right: 8px;
+    color: var(--primary-green);
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    min-height: 70vh; /* Adjust as needed */
+    margin-top: 65px; /* Height of navbar */
+    background-color: var(--primary-green);
+    color: var(--light-text);
+}
+
+.hero-content-area {
+    flex: 3; /* Takes more space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align text to the left */
+    padding: 40px 5%;
+    background-color: var(--primary-green); /* Solid green side */
+}
+
+.hero-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-text .subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-button {
+    background-color: var(--accent-gold);
+    color: var(--dark-bg);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #c8931b; /* Darker gold on hover */
+    transform: translateY(-2px);
+}
+
+.hero-visual-area {
+    flex: 2; /* Takes less space */
+    background-color: var(--dark-bg); /* Darker side */
+    /* You can add a background image or pattern here:
+       background-image: url('path/to/your/abstract-tech-image.jpg');
+       background-size: cover;
+       background-position: center;
+       opacity: 0.7; (if you want it slightly transparent over the dark bg)
+    */
+    /* Example: Subtle geometric pattern using CSS */
+    background-image:
+        linear-gradient(45deg, #2a2a2a 25%, transparent 25%),
+        linear-gradient(-45deg, #2a2a2a 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #2a2a2a 75%),
+        linear-gradient(-45deg, transparent 75%, #2a2a2a 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+
+/* Main Content - Solutions Section */
+main {
+    padding: 60px 0;
+    background-color: #f0f2f5; /* Light gray for content background */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2em;
+    color: var(--primary-green);
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+/* Underline effect for section title */
+.section-title h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--accent-gold);
+    margin: 8px auto 0;
+}
+
+.section-title p {
+    font-size: 1.1em;
+    color: var(--text-medium);
+}
+
+/* Challenge Cards */
+.challenge-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.challenge-card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 25px;
+    text-decoration: none;
+    color: var(--text-dark);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid var(--primary-green); /* Green accent */
+    display: flex;
+    flex-direction: column;
+}
+
+.challenge-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-icon {
+    font-size: 2.5em;
+    color: var(--primary-green);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.challenge-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    color: var(--primary-green);
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.challenge-card p {
+    font-size: 0.95em;
+    color: var(--text-medium);
+    line-height: 1.6;
+    flex-grow: 1; /* Pushes content down if cards have different heights */
+    text-align: center;
+}
+
+.challenge-card.placeholder {
+    border-left-color: var(--placeholder-accent);
+}
+.challenge-card.placeholder .card-icon {
+    color: var(--placeholder-accent);
+}
+.challenge-card.placeholder h3 {
+    color: #777;
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--dark-bg);
+    color: #a0a0a0;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .hero-text h1 {
+        font-size: 2.4em;
+    }
+    .hero-text .subtitle {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        min-height: auto;
+    }
+    .hero-content-area {
+        padding: 40px 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .hero-text h1 {
+        font-size: 2em;
+    }
+    .hero-visual-area {
+        min-height: 200px; /* Give some space for the visual part */
+    }
+    .challenge-cards-container {
+        grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+    .logo {
+        font-size: 1.3em;
+    }
+}

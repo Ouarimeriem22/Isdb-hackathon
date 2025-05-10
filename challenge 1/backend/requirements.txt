@@ -1,0 +1,11 @@
+
+
+Flask
+Flask-CORS
+openai>=1.0.0
+sentence-transformers
+scikit-learn
+scipy
+transformers
+python-dotenv
+numpy

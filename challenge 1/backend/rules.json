@@ -1,0 +1,992 @@
+{
+    "islamicFinanceKnowledgeBase": {
+        "version": "1.1.0",
+        "description": "A comprehensive model of rules and formulas for Islamic finance, intended for AI agent calculation and validation. Based on generally accepted principles and aiming for alignment with AAOIFI standards where applicable.",
+        "disclaimer": "This knowledge base is for informational and AI agent operational purposes. It is not a substitute for consultation with qualified Shariah scholars or specific Shariah board rulings, especially for complex or novel transactions. 'Literally all' rules are an ideal; this represents a comprehensive collection of established principles.",
+        "core_prohibitions": [
+            {
+                "name": "Riba (Interest/Usury)",
+                "description": "Any predetermined, guaranteed excess or premium over the principal amount in a loan, or an unequal exchange of specific fungible commodities.",
+                "types": [
+                    {
+                        "name": "Riba al-Nasi'ah (Interest on deferment/loan)",
+                        "rule": "A loan (Qard) must be repaid with the principal amount only. Any stipulated increase tied to time is Riba. Penalties for late payment cannot be pre-stipulated as income for the lender but can be actual recovery costs or a charitable contribution by the debtor.",
+                        "ai_check_logic": "IF (TransactionIsLoan OR DebtRepayment) AND (RepaymentAmount > PrincipalAmount) AND (ExcessIsConditionalOnTime OR ExcessIsStipulatedBenefitToLender) THEN FLAG 'Riba al-Nasi'ah'"
+                    },
+                    {
+                        "name": "Riba al-Fadl (Interest in exchange/barter)",
+                        "rule": "When exchanging specific ribawi commodities (gold, silver, wheat, barley, dates, salt) of the same type, they must be exchanged in equal measure and on a spot basis (hand-to-hand).",
+                        "ai_check_logic": "IF (IsExchangeOfRibawiItems) AND (ItemA_Type == ItemB_Type) AND ((ItemA_Quantity != ItemB_Quantity) OR (DeliveryIsNotSpot)) THEN FLAG 'Riba al-Fadl'"
+                    }
+                ]
+            },
+            {
+                "name": "Gharar (Excessive Uncertainty/Ambiguity)",
+                "description": "Transactions involving a high degree of uncertainty, ambiguity, or ignorance about a key term of the contract (e.g., subject matter, price, delivery) that could lead to dispute.",
+                "rule": "Essential elements of a contract must be clearly defined, known, and determined. Minor uncertainty (Gharar Yasir) that doesn't lead to dispute may be tolerated if unavoidable.",
+                "ai_check_logic": "FOR EACH CONTRACT: CHECK IF (SubjectMatter_Exists_Owned_Specified) AND (Price_Determined_Known) AND (DeliveryTerms_Clear_Specified) AND (Quantity_Known) AND (Quality_Known). IF (SignificantUncertaintyInEssentialTerm) THEN FLAG 'Gharar'"
+            },
+            {
+                "name": "Maysir (Gambling/Unearned Speculation)",
+                "description": "Acquiring wealth through pure chance or speculation without productive effort, genuine trade, or undertaking of risk in a real economic activity.",
+                "rule": "Profit should arise from legitimate economic activity, asset ownership, or service provision, not from events of pure chance or zero-sum games.",
+                "ai_check_logic": "IF (ProfitGenerationDependsPurelyOnChance) OR (TransactionIsZeroSumGameWithoutUnderlyingProductiveActivity) THEN FLAG 'Maysir'"
+            },
+            {
+                "name": "Prohibited (Haram) Industries/Activities",
+                "description": "Financing or investing in industries or activities forbidden in Islam.",
+                "rule": "Assets, services, or businesses involved must be Halal (permissible). Examples of Haram: alcohol, pork, conventional banking, gambling, pornography, conventional insurance, weapons of mass destruction.",
+                "ai_check_logic": "IF (UnderlyingAsset_IsHaram OR BusinessActivity_IsHaram) THEN FLAG 'Prohibited Activity/Asset'"
+            }
+        ],
+        "permissible_contracts_and_concepts": [
+            {
+                "name": "Murabaha (Cost-Plus Profit Sale)",
+                "type": "TradeFinance",
+                "shariah_basis": "Permissibility of trade (Bai'). Quran 2:275 'Allah has permitted trade and forbidden Riba'.",
+                "description": "Sale of an asset where the seller (financier) discloses the cost price and adds an agreed-upon profit margin. Can be on spot or deferred payment (Murabaha to the Purchase Orderer - MPO).",
+                "key_conditions_and_rules": [
+                    "The subject matter (asset) must be existing, owned, and possessed (actual or constructive) by the seller (financier) before selling it to the Murabaha buyer (client).",
+                    "The cost price of the asset to the financier and the profit margin (or total selling price) must be clearly disclosed and agreed upon at the time of the Murabaha contract.",
+                    "The selling price, once agreed, is fixed and cannot be increased for reasons like late payment by the buyer (this would be Riba). Late payment penalties, if any, must go to charity or cover actual collection costs, not as additional profit for the financier.",
+                    "The asset must be Halal.",
+                    "The financier bears ownership risk of the asset before selling it to the client.",
+                    "The Murabaha contract is a sale contract, not a loan.",
+                    "A binding promise (Wa'd) by the client to purchase the asset from the financier after the financier acquires it is permissible."
+                ],
+                "variables": [
+                    {
+                        "name": "CP",
+                        "description": "Financier's Cost Price of the Asset",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "PMA",
+                        "description": "Profit Margin Amount (fixed sum)",
+                        "dataType": "currency",
+                        "optional": true
+                    },
+                    {
+                        "name": "PMP",
+                        "description": "Profit Margin Percentage (of CP)",
+                        "dataType": "percentage",
+                        "optional": true
+                    },
+                    {
+                        "name": "AF",
+                        "description": "Actual Administrative/Operational Fees related to acquiring the asset (must be actual, disclosed costs)",
+                        "dataType": "currency",
+                        "optional": true
+                    },
+                    {
+                        "name": "N",
+                        "description": "Number of Installments for deferred payment",
+                        "dataType": "integer",
+                        "optional": true
+                    },
+                    {
+                        "name": "DownPayment",
+                        "description": "Initial payment by client",
+                        "dataType": "currency",
+                        "optional": true,
+                        "defaultValue": 0
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Calculate Selling Price (SP)",
+                        "logic": "IF PMA is provided: SP = CP + PMA + AF; ELSE IF PMP is provided: SP = CP * (1 + PMP) + AF; ELSE SP must be directly agreed.",
+                        "output_description": "Total selling price to the client."
+                    },
+                    {
+                        "name": "Calculate Installment Amount",
+                        "logic": "IF N is provided and N > 0: Installment = (SP - DownPayment) / N",
+                        "conditions_for_application": "Deferred payment with installments.",
+                        "output_description": "Amount of each periodic installment."
+                    }
+                ],
+                "common_applications": [
+                    "Asset financing (vehicles, equipment, property pre-construction)",
+                    "Inventory financing",
+                    "Working capital financing (via purchase of raw materials)"
+                ],
+                "ai_validation_points": [
+                    "Verify financier's ownership and possession before sale to client.",
+                    "Ensure CP and profit (or SP) are fixed and disclosed.",
+                    "Check that no interest-like penalty for late payment benefits the financier.",
+                    "Confirm asset is Halal."
+                ]
+            },
+            {
+                "name": "Ijarah (Operational and Financial Lease)",
+                "type": "AssetFinanceLeasing",
+                "shariah_basis": "Permissibility of leasing/renting (usufruct).",
+                "description": "A contract where the owner of an asset (lessor/financier) transfers its usufruct (right to use) to another party (lessee/client) for an agreed period in return for an agreed rental payment.",
+                "sub_types": [
+                    {
+                        "name": "Ijarah Tashgiliyah (Operational Lease)",
+                        "description": "Standard lease where lessor retains ownership risks and rewards. Asset typically returned to lessor at end of lease."
+                    },
+                    {
+                        "name": "Ijarah Muntahia Bittamleek (IMB) / Ijarah wa Iqtina (Lease Ending in Ownership)",
+                        "description": "A lease contract coupled with a separate undertaking (e.g., promise - Wa'd) by the lessor to transfer ownership of the asset to the lessee at the end of the lease period, through gift, sale at token price, sale at market price, or sale via gradual payments.",
+                        "imb_rules": [
+                            "The lease contract and the ownership transfer mechanism (e.g., sale, gift) must be distinct legal documents or clearly separate undertakings. The lease cannot be conditional on the purchase.",
+                            "If transfer by sale, the sale price and terms must be agreed (can be at end of lease or predetermined).",
+                            "Options for transfer: (a) Gift (Hiba), (b) Sale at a token price, (c) Sale at market value at lease end, (d) Sale for remaining unpaid installments (if part of Ijarah was structured to cover asset price - closer to DM).",
+                            "During IMB, rent should reflect usufruct of lessor's remaining ownership."
+                        ]
+                    }
+                ],
+                "key_conditions_and_rules": [
+                    "The lessor must own the leased asset or have the right to lease it (e.g., head lease).",
+                    "The leased asset must be tangible, identifiable, and have a valuable usufruct.",
+                    "The lessor bears all ownership-related risks and costs (e.g., major 'structural' maintenance, Takaful/insurance if required by lessor, loss/destruction not due to lessee's negligence or misuse).",
+                    "The lessee is responsible for normal operational maintenance and damage due to their negligence or misuse.",
+                    "Rental amount, lease period, and asset specifications must be clearly defined and agreed upon at the outset.",
+                    "Rent becomes due when the usufruct is made available or actually utilized, as per agreement.",
+                    "Rent can be fixed or variable (e.g., linked to a disclosed benchmark, but not an interest rate benchmark directly without proper Shariah structuring like two-tier Mudarabah for profit rate determination).",
+                    "The lease cannot be used as a guise for an interest-bearing loan. Rent must be for usufruct.",
+                    "If the asset is totally destroyed, the lease terminates, and rent ceases from date of destruction (unless lessee fault)."
+                ],
+                "variables": [
+                    {
+                        "name": "RP",
+                        "description": "Periodic Rental Payment",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "NumPeriods",
+                        "description": "Number of Rental Periods",
+                        "dataType": "integer"
+                    },
+                    {
+                        "name": "LeasePeriod",
+                        "description": "Total Duration of the Lease (e.g., in months, years)"
+                    },
+                    {
+                        "name": "AssetValue",
+                        "description": "Value of the Leased Asset",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "MaintenanceCost_Lessor",
+                        "description": "Anticipated or actual major maintenance costs borne by lessor",
+                        "dataType": "currency",
+                        "optional": true
+                    },
+                    {
+                        "name": "TakafulCost_Lessor",
+                        "description": "Cost of Islamic insurance borne by lessor",
+                        "dataType": "currency",
+                        "optional": true
+                    },
+                    {
+                        "name": "ResidualValue_Stipulated",
+                        "description": "Stipulated residual value at end of lease (for IMB sale options)",
+                        "dataType": "currency",
+                        "optional": true
+                    },
+                    {
+                        "name": "IMB_TransferPrice",
+                        "description": "Agreed price for asset transfer in IMB (if by sale)",
+                        "dataType": "currency",
+                        "optional": true
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Total Rent Payable Over Lease Term",
+                        "equation": "TotalRent = RP * NumPeriods"
+                    },
+                    {
+                        "name": "Lessor's Net Income (Illustrative)",
+                        "logic": "NetIncome = TotalRent - (AssetDepreciationOverLease) - MaintenanceCost_Lessor - TakafulCost_Lessor - OtherOwnershipCosts",
+                        "notes": "RP is an agreed price. This formula is for lessor's internal assessment, not to directly derive RP in a way that mimics interest."
+                    }
+                ],
+                "common_applications": [
+                    "Vehicle leasing",
+                    "Equipment leasing",
+                    "Property leasing",
+                    "Project financing"
+                ],
+                "ai_validation_points": [
+                    "Confirm lessor ownership and bearing of ownership risks.",
+                    "Ensure rental is for usufruct, fixed or clearly benchmarked if variable.",
+                    "For IMB, verify separation of lease and transfer undertakings and clarity of transfer mechanism.",
+                    "Verify responsibility for maintenance and insurance is correctly assigned."
+                ]
+            },
+            {
+                "name": "Mudarabah (Trustee Profit-Sharing Partnership)",
+                "type": "InvestmentPartnership",
+                "shariah_basis": "Practice of the Prophet (PBUH) and companions. Principle of sharing profit from joint effort and capital.",
+                "description": "A partnership where one party (Rabb-ul-Maal) provides capital, and the other party (Mudarib) provides expertise and management for a venture. Profits are shared according to a pre-agreed ratio. Financial losses are borne solely by the Rabb-ul-Maal.",
+                "key_conditions_and_rules": [
+                    "Capital (Ras-ul-Maal) must be provided by the Rabb-ul-Maal in liquid form or clearly valued assets.",
+                    "The Mudarib contributes labor, skill, and management.",
+                    "Profit Sharing Ratio (PSR) must be a percentage or proportion of actual profit (e.g., 60:40, 50:50), not a fixed amount or a percentage of capital. PSR must be agreed at the outset.",
+                    "Financial losses are borne entirely by the Rabb-ul-Maal, up to the amount of capital invested. The Mudarib loses their time and effort.",
+                    "The Mudarib is liable for loss only if it results from their negligence (Taqsir), misconduct (Ta'addi), or breach of stipulated contract conditions (Mukhalafah al-Shurut).",
+                    "The Mudarib acts as a trustee (Amin) of the capital.",
+                    "The scope of the Mudarabah (e.g., restricted to specific investments - Muqayyadah, or unrestricted - Mutlaqah) should be defined.",
+                    "Distribution of profit occurs after actual realization of profit and deduction of Mudarabah expenses."
+                ],
+                "variables": [
+                    {
+                        "name": "CI",
+                        "description": "Capital Invested by Rabb-ul-Maal",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "ActualProfit_Realized",
+                        "description": "APG - Actual Gross Profit Generated by the venture before PSR distribution",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "VentureExpenses",
+                        "description": "Legitimate expenses of the Mudarabah venture",
+                        "dataType": "currency",
+                        "defaultValue": 0
+                    },
+                    {
+                        "name": "ActualLoss_Incurred",
+                        "description": "ALI - Actual Financial Loss Incurred by the venture",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "PSR_RM",
+                        "description": "Profit Sharing Ratio for Rabb-ul-Maal (e.g., 0.6 for 60%)",
+                        "dataType": "percentage"
+                    },
+                    {
+                        "name": "PSR_M",
+                        "description": "Profit Sharing Ratio for Mudarib (e.g., 0.4 for 40%)",
+                        "dataType": "percentage"
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Calculate Net Profit for Distribution",
+                        "equation": "NetProfit_Distributable = ActualProfit_Realized - VentureExpenses",
+                        "condition": "ActualProfit_Realized > VentureExpenses"
+                    },
+                    {
+                        "name": "Profit Share Calculation (if NetProfit_Distributable > 0)",
+                        "logic": "ProfitShare_RM = NetProfit_Distributable * PSR_RM; ProfitShare_M = NetProfit_Distributable * PSR_M",
+                        "conditions_for_application": "NetProfit_Distributable > 0. PSR_RM + PSR_M must equal 1 (or 100%)."
+                    },
+                    {
+                        "name": "Return to Rabb-ul-Maal (in case of profit)",
+                        "equation": "Return_RM_Profit = CI + ProfitShare_RM"
+                    },
+                    {
+                        "name": "Rabb-ul-Maal's Position (in case of loss, no Mudarib negligence)",
+                        "logic": "Loss_Borne_By_RM = MIN(ActualLoss_Incurred, CI); Return_RM_Loss = CI - Loss_Borne_By_RM",
+                        "notes": "Mudarib loses effort. Return_RM_Loss cannot be less than zero attributable to Mudarabah capital."
+                    }
+                ],
+                "common_applications": [
+                    "Investment accounts in Islamic banks",
+                    "Project financing",
+                    "Fund management"
+                ],
+                "ai_validation_points": [
+                    "Verify PSR is a ratio of actual profit, not fixed amount or % of capital.",
+                    "Confirm loss-sharing rule: Rabb-ul-Maal bears financial loss.",
+                    "Ensure capital is clearly defined.",
+                    "Check if Mudarib liability for loss is correctly limited to negligence/misconduct/breach."
+                ]
+            },
+            {
+                "name": "Musharakah (Joint Venture Profit & Loss Sharing Partnership)",
+                "type": "InvestmentPartnership",
+                "shariah_basis": "Principle of cooperation and joint enterprise.",
+                "description": "A partnership where two or more parties contribute capital to a venture. Profits are shared according to a pre-agreed ratio, while losses are shared strictly in proportion to each partner's capital contribution.",
+                "key_conditions_and_rules": [
+                    "All partners contribute capital (cash or assets valued at current market price at time of contract).",
+                    "Profit Sharing Ratio (PSR) can be agreed upon and may differ from capital contribution ratios, especially if some partners contribute more management, expertise, or effort.",
+                    "Loss Sharing Ratio (LSR) *must* be strictly in proportion to each partner's respective capital contribution.",
+                    "All partners typically have the right to participate in the management of the venture, unless otherwise agreed (e.g., one partner acts as a working partner, others as silent partners).",
+                    "The nature of the business must be Halal.",
+                    "Profits are distributed only after they are actually realized.",
+                    "Capital contributions should be commingled and not distinguishable after mixing."
+                ],
+                "variables": [
+                    {
+                        "name": "Capital_Partner_X",
+                        "description": "Capital contributed by Partner X (array or list for multiple partners)",
+                        "dataType": "currencyArray"
+                    },
+                    {
+                        "name": "Total_Capital",
+                        "description": "Sum of all partners' capital contributions",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "PSR_Partner_X",
+                        "description": "Profit Sharing Ratio for Partner X (array or list, sum must be 1 or 100%)",
+                        "dataType": "percentageArray"
+                    },
+                    {
+                        "name": "ActualProfit_Realized",
+                        "description": "APG - Actual Gross Profit Generated by the venture",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "VentureExpenses",
+                        "description": "Legitimate expenses of the Musharakah venture",
+                        "dataType": "currency",
+                        "defaultValue": 0
+                    },
+                    {
+                        "name": "ActualLoss_Incurred",
+                        "description": "ALI - Actual Financial Loss Incurred by the venture",
+                        "dataType": "currency"
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Calculate Net Profit for Distribution",
+                        "equation": "NetProfit_Distributable = ActualProfit_Realized - VentureExpenses",
+                        "condition": "ActualProfit_Realized > VentureExpenses"
+                    },
+                    {
+                        "name": "Profit Share for Partner X (if NetProfit_Distributable > 0)",
+                        "equation": "ProfitShare_Partner_X = NetProfit_Distributable * PSR_Partner_X"
+                    },
+                    {
+                        "name": "Loss Sharing Ratio (LSR) for Partner X",
+                        "equation": "LSR_Partner_X = Capital_Partner_X / Total_Capital"
+                    },
+                    {
+                        "name": "Loss Share for Partner X (if ActualLoss_Incurred > 0 or NetProfit_Distributable < 0)",
+                        "equation": "LossShare_Partner_X = ActualLoss_Incurred * LSR_Partner_X"
+                    },
+                    {
+                        "name": "Return to Partner X (in case of profit)",
+                        "equation": "Return_Partner_X_Profit = Capital_Partner_X + ProfitShare_Partner_X"
+                    },
+                    {
+                        "name": "Partner X's Position (in case of loss)",
+                        "equation": "Position_Partner_X_Loss = Capital_Partner_X - LossShare_Partner_X"
+                    }
+                ],
+                "common_applications": [
+                    "Project finance",
+                    "Joint ventures",
+                    "Large scale investments",
+                    "Diminishing Musharakah for home financing"
+                ],
+                "ai_validation_points": [
+                    "Verify LSR is strictly based on capital contribution ratios.",
+                    "Ensure PSRs are agreed ratios of actual profit.",
+                    "Confirm all partners contribute capital.",
+                    "Ensure business activity is Halal."
+                ]
+            },
+            {
+                "name": "Diminishing Musharakah (Musharakah Mutanaqisah)",
+                "type": "AssetFinanceHomeOwnership",
+                "shariah_basis": "Combines Musharakah (partnership) and Ijarah (leasing) principles, along with Bai' (sale).",
+                "description": "A form of Musharakah where a financier and a client jointly own an asset (e.g., property). The client gradually buys out the financier's share (units) over time. Simultaneously, the client pays rent to the financier for using the portion of the asset still owned by the financier.",
+                "key_conditions_and_rules": [
+                    "Formation of a Musharakah for joint ownership of the asset. Both financier and client contribute to the asset's purchase price, establishing their initial ownership shares.",
+                    "The client undertakes (Wa'd - promise) to purchase the financier's share units periodically.",
+                    "The financier leases its undivided share in the asset to the client for an agreed rental (Ijarah).",
+                    "Rental payments should be for the financier's current share of ownership and ideally based on fair market rental value. As the client buys more shares, the financier's share decreases, and thus the rental portion should also decrease proportionally or be re-evaluated.",
+                    "The purchase price of the financier's units by the client can be pre-agreed (e.g., at par value of initial contribution for that unit) or based on market valuation at time of unit purchase (requires clear mechanism).",
+                    "Three distinct contracts are involved (though often packaged): Musharakah (partnership), Ijarah (lease), and Bai' (sale of units). They must be Shariah-compliant individually.",
+                    "Major maintenance and Takaful related to the asset ownership are typically borne by partners according to their respective shares, or by the financier (lessor part) who may factor it into the rental.",
+                    "Client is responsible for normal operational maintenance."
+                ],
+                "variables_iterative_per_period": [
+                    {
+                        "name": "TAP",
+                        "description": "Total Asset Price",
+                        "dataType": "currency",
+                        "constant": true
+                    },
+                    {
+                        "name": "Financier_Initial_Share_Value",
+                        "description": "FISV",
+                        "dataType": "currency",
+                        "constant": true
+                    },
+                    {
+                        "name": "Client_Initial_Share_Value",
+                        "description": "CISV",
+                        "dataType": "currency",
+                        "constant": true
+                    },
+                    {
+                        "name": "Periodic_Unit_Purchase_Payment_By_Client",
+                        "description": "PUPC (payment towards buying financier's share)",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "Market_Rental_Rate_For_Full_Asset_Per_Period",
+                        "description": "MRR_Full",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "Financier_Share_Percentage_StartOfPeriod",
+                        "description": "FSP_Start",
+                        "dataType": "percentage"
+                    },
+                    {
+                        "name": "Financier_Share_Value_StartOfPeriod",
+                        "description": "FSV_Start = TAP * FSP_Start",
+                        "dataType": "currency"
+                    }
+                ],
+                "calculation_logic_per_period": [
+                    {
+                        "name": "Rental Payment for Period",
+                        "equation_logic": "Rental_Due = MRR_Full * FSP_Start"
+                    },
+                    {
+                        "name": "Financier's Share Value After Client's Unit Purchase",
+                        "equation_logic": "FSV_End = FSV_Start - PUPC"
+                    },
+                    {
+                        "name": "Financier's Share Percentage End of Period",
+                        "equation_logic": "FSP_End = FSV_End / TAP"
+                    },
+                    {
+                        "name": "Total Client Payment for Period",
+                        "equation_logic": "Total_Client_Payment = Rental_Due + PUPC"
+                    }
+                ],
+                "notes_on_iteration": "This process repeats each period. FSP_End and FSV_End of one period become FSP_Start and FSV_Start for the next, until FSP reaches 0 and client owns 100% of asset.",
+                "common_applications": [
+                    "Home financing",
+                    "Financing of other large assets"
+                ],
+                "ai_validation_points": [
+                    "Verify clear joint ownership structure.",
+                    "Ensure rental is for financier's share only and ideally market-benchmarked, adjusting as financier's share decreases.",
+                    "Confirm clear mechanism for unit purchase price.",
+                    "Check proper allocation of ownership risks (maintenance, insurance/Takaful).",
+                    "Ensure distinct nature of Musharakah, Ijarah, and Bai' components are respected."
+                ]
+            },
+            {
+                "name": "Salam (Forward Sale with Advance Payment)",
+                "type": "TradeFinanceCommodity",
+                "shariah_basis": "Permitted by Sunnah to facilitate agricultural and trade finance.",
+                "description": "A sale contract where the buyer pays the full price in advance (at contract spot) for specific goods (the Salam subject matter) to be delivered by the seller at a determined future date.",
+                "key_conditions_and_rules": [
+                    "Full payment of the price (Thaman) must be made by the buyer to the seller at the time of concluding the Salam contract.",
+                    "The subject matter (Muslam fihi - the goods) must be a debt (Dhimmah) on the seller, i.e., described by specifications, not a specific identified item.",
+                    "The quantity, quality, and all other specifications of the goods must be precisely defined and agreed upon, leaving no ambiguity that could lead to dispute.",
+                    "The exact date and place of delivery must be specified and agreed.",
+                    "The goods must be standard, fungible items (can be replaced by similar items if destroyed), not unique or specific items like a particular house or animal.",
+                    "The goods must normally be available in the market at the time of delivery.",
+                    "The Salam contract cannot be for goods that must be exchanged on spot (e.g., gold for gold - Riba al-Fadl).",
+                    "The seller is not required to own the goods at the time of the Salam contract, but is obligated to procure/produce and deliver them as per specs on due date."
+                ],
+                "variables": [
+                    {
+                        "name": "Commodity_Type_And_Full_Specifications",
+                        "description": "Detailed description of quality, grade, origin, etc.",
+                        "dataType": "string"
+                    },
+                    {
+                        "name": "CQ",
+                        "description": "Commodity Quantity (e.g., in kg, tons, units)",
+                        "dataType": "number"
+                    },
+                    {
+                        "name": "Price_Per_Unit_Salam",
+                        "description": "PPU_Salam",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "Total_Salam_Price",
+                        "description": "TSP = PPU_Salam * CQ",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "Delivery_Date",
+                        "description": "Specified future date of delivery",
+                        "dataType": "date"
+                    },
+                    {
+                        "name": "Delivery_Location",
+                        "description": "Specified physical location of delivery",
+                        "dataType": "string"
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Calculate Total Salam Price (Paid Upfront by Buyer)",
+                        "equation": "Total_Salam_Price = Price_Per_Unit_Salam * Commodity_Quantity"
+                    }
+                ],
+                "common_applications": [
+                    "Agricultural finance (pre-financing harvests)",
+                    "Commodity financing",
+                    "Working capital for manufacturers"
+                ],
+                "ai_validation_points": [
+                    "Confirm full upfront payment by the buyer at contract time.",
+                    "Verify extreme clarity and precision of commodity specifications, quantity, quality, delivery date, and location.",
+                    "Ensure commodity is fungible and generally available at delivery time.",
+                    "Check that contract is not for items that require spot exchange (like currencies)."
+                ]
+            },
+            {
+                "name": "Istisna' (Order to Manufacture/Construct)",
+                "type": "ProjectFinanceManufacturing",
+                "shariah_basis": "Customary practice (Urf) recognized for meeting economic needs.",
+                "description": "A contract where one party (buyer/Mustasni') orders another party (manufacturer/Sani') to manufacture, assemble, or construct a specific asset with specified materials from the Sani', for an agreed price and delivery at a future date. Payment can be flexible.",
+                "key_conditions_and_rules": [
+                    "The subject matter (Masnoo' - the item to be manufactured/constructed) and its detailed specifications (type, quality, quantity, materials) must be clearly defined and agreed upon, leaving no ambiguity.",
+                    "The price (Thaman) must be fixed and known at the time of contract.",
+                    "The payment schedule can be flexible: full upfront, installments linked to progress/milestones, or full payment upon delivery, as agreed by both parties. (This flexibility distinguishes it from Salam where full upfront payment is mandatory).",
+                    "The manufacturer (Sani') is typically responsible for providing both materials and labor, unless otherwise agreed (e.g., client provides some materials - Istisna' where Sani' provides labor only).",
+                    "The time of delivery should be specified, though some flexibility may exist if not critical.",
+                    "Once the Sani' starts work, the contract is generally binding. Before work starts, some scholars allow cancellation.",
+                    "The Sani' bears the risk of the materials and the manufacturing process until delivery to the Mustasni'."
+                ],
+                "variables": [
+                    {
+                        "name": "Item_Full_Specifications",
+                        "description": "Detailed description of asset to be manufactured/constructed",
+                        "dataType": "string"
+                    },
+                    {
+                        "name": "Total_Istisna_Price",
+                        "description": "TIP (Fixed price)",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "Payment_Schedule_Agreed",
+                        "description": "Details of payment installments, milestones, or lump sum timing",
+                        "dataType": "string/object"
+                    },
+                    {
+                        "name": "Delivery_Date_Agreed",
+                        "description": "Specified delivery date",
+                        "dataType": "date"
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Calculate Installment Amount (if equal installments)",
+                        "equation": "Installment_Amount = Total_Istisna_Price / Number_of_Installments",
+                        "condition": "Payment is in equal installments as per agreement.",
+                        "output_description": "Amount of each installment."
+                    },
+                    {
+                        "name": "Milestone Payment Calculation",
+                        "logic": "Payment_Due_Milestone_X = Agreed_Payment_For_Milestone_X",
+                        "condition": "Payment is linked to achieving specific milestones."
+                    }
+                ],
+                "common_applications": [
+                    "Project finance (construction of buildings, infrastructure)",
+                    "Manufacturing of custom machinery, aircraft, ships",
+                    "Software development"
+                ],
+                "ai_validation_points": [
+                    "Ensure detailed specifications of the item and a fixed price are agreed upfront.",
+                    "Verify the payment schedule is clear and agreed.",
+                    "Confirm Sani' is responsible for materials unless specified otherwise.",
+                    "Check delivery terms."
+                ]
+            },
+            {
+                "name": "Qard / Qard Hasan (Interest-Free / Benevolent Loan)",
+                "type": "CharitableSocialFinance",
+                "shariah_basis": "Encouraged act of charity and cooperation. Quran 2:245 'Who is it that would loan Allah a goodly loan...'",
+                "description": "An interest-free loan where the borrower is only required to repay the principal amount. Qard Hasan specifically implies a benevolent intent.",
+                "key_conditions_and_rules": [
+                    "The lender cannot stipulate or receive any predetermined excess, benefit, or advantage over the principal amount. Any such stipulation renders it Riba.",
+                    "The borrower is obligated to repay only the principal amount borrowed.",
+                    "A small, actual administrative fee (not percentage-based and not tied to loan amount or duration) is permissible for the lending institution if it reflects genuine, auditable service costs for processing and managing the loan (e.g., for Qard offered by institutions). This fee must not be a disguised form of interest.",
+                    "It is commendable (Mustahabb) for the borrower to voluntarily give a gift (Hiba) to the lender upon repayment, provided it was not stipulated, expected, or customary in a way that makes it quasi-obligatory.",
+                    "The loan must be for a Halal purpose."
+                ],
+                "variables": [
+                    {
+                        "name": "PLA",
+                        "description": "Principal Loan Amount",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "AFA_ActualCost",
+                        "description": "Actual Administrative Fee (optional, must be strictly actual cost, not profit component)",
+                        "dataType": "currency",
+                        "optional": true
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Total Repayment Amount",
+                        "equation": "Total_Repayment = PLA (+ AFA_ActualCost if applicable and justified as pure actual cost)"
+                    }
+                ],
+                "common_applications": [
+                    "Personal financial assistance",
+                    "Microfinance (non-profit models)",
+                    "Student loans (non-profit models)",
+                    "Bridging finance by Islamic banks (as a service, not profit center)"
+                ],
+                "ai_validation_points": [
+                    "Ensure no conditional excess (interest) is charged or stipulated over the principal.",
+                    "If an administrative fee is charged by an institution, verify it's nominal, reflects actual, auditable costs, and is not linked to loan amount/duration in a way that mimics interest."
+                ]
+            },
+            {
+                "name": "Zakat (Obligatory Alms/Charity)",
+                "type": "ReligiousObligationWealthPurification",
+                "description": "An obligatory payment for eligible Muslims on specific types of wealth that have reached a minimum threshold (Nisab) and have been held for a lunar year (Hawl), with some exceptions.",
+                "key_conditions_and_rules": [
+                    "Payer must be Muslim, sane, adult, and have full ownership (Milktam) of the wealth.",
+                    "Wealth must reach the Nisab (minimum threshold). Nisab for money/trade goods is equivalent to 85 grams of pure gold or 595 grams of pure silver. The lower of the two values is often used for monetary Nisab to be more inclusive.",
+                    "A full lunar year (Hawl) must pass while the wealth remains at or above Nisab (exceptions: agricultural produce, discovered treasure, minerals where Zakat is due upon harvest/acquisition).",
+                    "Wealth must be productive or have potential for growth (Nماء - Namaa), e.g., cash, trade goods, livestock. Personal use items (primary home, personal car, clothes, tools of trade essential for earning livelihood) are generally exempt.",
+                    "Debts owed by the Zakat payer that are due immediately or within the Zakat year can be deducted from Zakatable assets before calculating Zakat, provided these debts would be paid from those Zakatable assets."
+                ],
+                "nisab_details": [
+                    {
+                        "type": "Gold",
+                        "weight_grams": 85,
+                        "purity": "Pure (24k)"
+                    },
+                    {
+                        "type": "Silver",
+                        "weight_grams": 595,
+                        "purity": "Pure"
+                    }
+                ],
+                "zakat_categories_and_rates": [
+                    {
+                        "category_name": "Cash, Bank Balances, Gold, Silver, Trade Goods, Financial Securities (for trading)",
+                        "nisab_basis": "Value of 85g gold or 595g silver (whichever is less, for currency/trade goods). For gold/silver items, their respective weights.",
+                        "hawl_applies": true,
+                        "rate_percentage": 2.5,
+                        "calculation_base": "Net Zakatable amount after deducting immediate liabilities.",
+                        "notes_on_shares": "For shares held for trading: Zakat on full market value. For shares held for long-term investment (dividends/capital appreciation): Zakat on dividends received, plus Zakat on the Zakatable portion of the company's underlying assets if ascertainable (e.g., company's cash, inventory, receivables minus liabilities, pro-rated to shareholding), or on market value if intending to sell soon and assets not ascertainable.",
+                        "notes_on_jewelry": "Scholarly difference on personal use jewelry. Some exempt it entirely, some Zakat above a customary amount, some Zakat all of it."
+                    },
+                    {
+                        "category_name": "Agricultural Produce (Grains, Fruits, etc.)",
+                        "nisab_basis": "Approx. 5 Wasqs (around 612-653 kg, varies by specific measure interpretation).",
+                        "hawl_applies": false,
+                        "zakat_due_time": "At time of harvest.",
+                        "rate_percentage": "5% if irrigated by human effort/cost; 10% if naturally irrigated (rain, natural springs).",
+                        "calculation_base": "Gross produce reaching Nisab."
+                    },
+                    {
+                        "category_name": "Livestock (Camels, Cattle, Sheep/Goats)",
+                        "nisab_basis": "Specific count thresholds for each type (e.g., 5 camels, 30 cattle, 40 sheep/goats).",
+                        "hawl_applies": true,
+                        "rate_percentage": "Specific number and age of animals due based on herd size (detailed schedules exist).",
+                        "calculation_base": "Number of animals that are grazing for most of the year and not working animals."
+                    },
+                    {
+                        "category_name": "Rikaz (Treasure Trove - Buried wealth from pre-Islamic times)",
+                        "nisab_basis": "No specific Nisab, some say general monetary Nisab applies.",
+                        "hawl_applies": false,
+                        "zakat_due_time": "Upon discovery/acquisition.",
+                        "rate_percentage": 20,
+                        "calculation_base": "Value of treasure found."
+                    },
+                    {
+                        "category_name": "Ma'adin (Minerals/Extracted Resources)",
+                        "nisab_basis": "Some apply monetary Nisab to value extracted; some say no Nisab.",
+                        "hawl_applies": false,
+                        "zakat_due_time": "Upon extraction and processing.",
+                        "rate_percentage": "Generally 2.5% on net value after costs, but can be 20% if considered like Rikaz (scholarly differences).",
+                        "calculation_base": "Value of minerals extracted."
+                    }
+                ],
+                "general_zakat_calculation_flow_monetary": [
+                    "Step1_DetermineNisab: Get current market value of 85g gold and 595g silver. Use lower value as MonetaryNisab (unless following a specific school that uses only gold).",
+                    "Step2_IdentifyZakatableAssets: Sum value of (Cash + BankBalances + GoldValue + SilverValue + MarketValueOfTradeGoods + NetReceivablesFromTrade + MarketValueOfTradingShares + ZakatablePortionOfInvestmentShares).",
+                    "Step3_IdentifyDeductibleLiabilities: Sum value of immediate/due debts that would be paid from Zakatable assets.",
+                    "Step4_CalculateNetZakatableWealth: NZW = TotalZakatableAssets - DeductibleLiabilities.",
+                    "Step5_CheckNisabAndHawl: IF (NZW >= MonetaryNisab) AND (Hawl_Completed_On_This_Wealth_Level) THEN Proceed.",
+                    "Step6_CalculateZakatDue: Zakat_Due = NZW * 0.025."
+                ],
+                "ai_validation_points": [
+                    "Accurate current Nisab value is critical (needs live gold/silver prices).",
+                    "Verify Hawl completion for relevant assets.",
+                    "Correctly identify Zakatable vs. non-Zakatable assets (e.g., personal use items).",
+                    "Properly account for deductible liabilities (immediate vs. long-term).",
+                    "Apply correct rates for different asset types (e.g., agriculture, livestock)."
+                ]
+            },
+            {
+                "name": "Sukuk (Islamic Investment Certificates/Bonds)",
+                "type": "CapitalMarketInstrument",
+                "description": "Shariah-compliant investment certificates representing proportionate undivided ownership interest in tangible assets, usufruct of assets, services, or in the assets of a particular project or investment activity. Returns to Sukuk holders are derived from the profit generated by the underlying asset/project based on a specific Islamic contract structure.",
+                "key_conditions_and_rules": [
+                    "Sukuk must represent ownership (or beneficial ownership) in underlying assets, not just debt.",
+                    "The underlying assets must be Halal.",
+                    "Returns to Sukuk holders must be linked to the performance of the underlying assets/projects, not a guaranteed fixed return on principal (unless it's a Qard-based Sukuk which is rare for tradable Sukuk).",
+                    "The issuer (Originator/SPV) cannot guarantee the principal amount of asset-based Sukuk if the value of the underlying assets declines (Sukuk holders share in risk). Purchase undertakings at par from the issuer are generally not allowed if they mimic a debt guarantee; third-party guarantees under specific conditions might be permissible.",
+                    "Tradability of Sukuk depends on the nature of the underlying assets/contracts. If underlying assets are primarily debt (e.g., Murabaha receivables after initial sale), tradability is restricted to par value to avoid Riba. If assets are tangible or a mix where tangible assets dominate, Sukuk can be traded at market price."
+                ],
+                "common_sukuk_structures_and_underlying_contracts": [
+                    {
+                        "structure_name": "Sukuk al-Ijarah",
+                        "underlying_contract": "Ijarah",
+                        "return_mechanism": "Rental income from leased assets."
+                    },
+                    {
+                        "structure_name": "Sukuk al-Mudarabah",
+                        "underlying_contract": "Mudarabah",
+                        "return_mechanism": "Share of profit from Mudarabah venture."
+                    },
+                    {
+                        "structure_name": "Sukuk al-Musharakah",
+                        "underlying_contract": "Musharakah",
+                        "return_mechanism": "Share of profit from Musharakah venture."
+                    },
+                    {
+                        "structure_name": "Sukuk al-Salam",
+                        "underlying_contract": "Salam",
+                        "return_mechanism": "Profit from sale of Salam goods (Sukuk holders are like Salam buyers)."
+                    },
+                    {
+                        "structure_name": "Sukuk al-Istisna'",
+                        "underlying_contract": "Istisna'",
+                        "return_mechanism": "Profit from sale of manufactured/constructed asset."
+                    },
+                    {
+                        "structure_name": "Sukuk al-Wakalah (Wakalah bil Istithmar)",
+                        "underlying_contract": "Wakalah (Agency for Investment)",
+                        "return_mechanism": "Share of profit from a managed investment portfolio, after deducting Wakalah fee."
+                    },
+                    {
+                        "structure_name": "Hybrid Sukuk",
+                        "underlying_contract": "Mix of contracts (e.g., Ijarah, Murabaha, Musharakah)",
+                        "return_mechanism": "Weighted average returns from different underlying pools."
+                    }
+                ],
+                "formulas_and_calculation_logic": "Formulas depend on the underlying contract structure (e.g., Ijarah rent calculation, Mudarabah profit sharing). The Sukuk prospectus will detail the specific calculation and distribution waterfalls.",
+                "ai_validation_points": [
+                    "Verify true asset ownership or beneficial interest for Sukuk holders.",
+                    "Ensure underlying assets and activities are Halal.",
+                    "Check that return is linked to asset performance, not guaranteed fixed return on principal (unless structured as Qard).",
+                    "Assess tradability conditions based on the nature of underlying assets (debt vs. tangible assets)."
+                ]
+            },
+            {
+                "name": "Takaful (Islamic Insurance/Mutual Guarantee)",
+                "type": "RiskManagement",
+                "shariah_basis": "Principles of mutual cooperation (Ta'awun), shared responsibility (Kafalah), donation (Tabarru'), and protection.",
+                "description": "A Shariah-compliant system of mutual protection and joint guarantee where participants contribute to a common fund (Takaful fund) to provide mutual indemnity against specified losses or damages. It avoids Gharar, Maysir, and Riba found in conventional insurance.",
+                "key_principles_and_models": [
+                    {
+                        "principle": "Tabarru' (Donation)",
+                        "description": "Participants' contributions to the Takaful fund are made with the intention of donation to help fellow participants in need. This purifies the contract from Gharar related to uncertainty of payout."
+                    },
+                    {
+                        "principle": "Shared Responsibility",
+                        "description": "Participants collectively share defined risks."
+                    },
+                    {
+                        "principle": "Segregation of Funds",
+                        "description": "Participant's fund (risk fund) is kept separate from operator's (shareholder's) fund."
+                    },
+                    {
+                        "principle": "Shariah-Compliant Investments",
+                        "description": "The Takaful fund must be invested in Shariah-compliant assets."
+                    },
+                    {
+                        "principle": "Surplus Distribution",
+                        "description": "Any underwriting surplus (contributions + investment income - claims - reserves - operator fee) from the Takaful fund is typically distributed back to participants, or partly to charity, or retained for future stability, as per the agreed model and policy terms."
+                    },
+                    {
+                        "model_name": "Mudarabah Model",
+                        "operator_role": "Mudarib (manager of Takaful fund and investments)",
+                        "operator_remuneration": "Share of investment profit from the Takaful fund and sometimes a share of underwriting surplus, as per agreed PSR."
+                    },
+                    {
+                        "model_name": "Wakalah Model",
+                        "operator_role": "Wakil (Agent managing the Takaful operations and investments)",
+                        "operator_remuneration": "Fixed Wakalah fee (percentage of contributions or fixed amount) for services. Operator may also receive a performance fee from investment profit or underwriting surplus (Ju'alah)."
+                    },
+                    {
+                        "model_name": "Hybrid Model (Wakalah-Mudarabah)",
+                        "operator_role": "Wakil for underwriting activities, Mudarib for investment activities.",
+                        "operator_remuneration": "Wakalah fee for operations, share of investment profit as Mudarib."
+                    }
+                ],
+                "variables_for_surplus_calculation": [
+                    {
+                        "name": "TotalContributions",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "InvestmentIncome_TakafulFund",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "ClaimsPaid",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "Reserves_Allocated",
+                        "dataType": "currency"
+                    },
+                    {
+                        "name": "OperatorFee_Wakalah",
+                        "dataType": "currency",
+                        "optional": true
+                    },
+                    {
+                        "name": "OperatorShare_MudarabahProfit",
+                        "dataType": "currency",
+                        "optional": true
+                    }
+                ],
+                "formulas_and_calculation_logic": [
+                    {
+                        "name": "Underwriting Surplus Calculation",
+                        "equation_logic": "Surplus = (TotalContributions + InvestmentIncome_TakafulFund) - (ClaimsPaid + Reserves_Allocated + OperatorFee_Wakalah + OperatorShare_MudarabahProfit_from_investment)"
+                    },
+                    {
+                        "name": "Distribution of Surplus",
+                        "logic": "Surplus is distributed to Participants, and/or Operator (as incentive/Ju'alah), and/or Charity, and/or retained in fund, based on pre-agreed ratios in policy/Waqf deed."
+                    }
+                ],
+                "ai_validation_points": [
+                    "Verify Tabarru' principle is central to contributions.",
+                    "Ensure clear segregation of participant and operator funds.",
+                    "Confirm investments are Shariah-compliant.",
+                    "Check clarity of the operational model (Mudarabah, Wakalah, Hybrid) and operator's remuneration.",
+                    "Verify mechanism for surplus distribution."
+                ]
+            },
+            {
+                "name": "Wakalah (Agency)",
+                "type": "AncillaryContract",
+                "description": "A contract where one party (Muwakkil - Principal) appoints another party (Wakil - Agent) to perform a specific task or act on their behalf. The Wakil may or may not be paid a fee (Ujrah).",
+                "key_conditions_and_rules": [
+                    "The subject matter of agency must be known, permissible, and performable by the agent.",
+                    "Both principal and agent must have legal capacity.",
+                    "Scope of agency must be clearly defined.",
+                    "If a fee (Ujrah) is paid, it should be known and agreed. Can be fixed, percentage of transaction value (if not leading to Gharar), or performance-based.",
+                    "The agent acts as a trustee (Amin) and is generally not liable for loss unless due to negligence, misconduct, or breach of agency terms."
+                ],
+                "common_applications": [
+                    "Fund management (Wakalah bil Istithmar - Agency for Investment)",
+                    "Fee-based services by Islamic banks",
+                    "Collection agent",
+                    "Component in Takaful and Sukuk structures"
+                ]
+            },
+            {
+                "name": "Kafalah (Surety/Guarantee)",
+                "type": "AncillaryContract",
+                "description": "A contract where one party (Kafil - Guarantor) joins their liability (Dhimmah) to that of another party (Makful 'anhu - Principal Debtor) in respect of a claim owed to a third party (Makful lahu - Creditor/Beneficiary).",
+                "key_conditions_and_rules": [
+                    "Guarantor must have legal capacity.",
+                    "The guaranteed obligation must be a valid and binding liability.",
+                    "Consent of the guarantor is essential. Consent of principal debtor or creditor is debated but generally preferred.",
+                    "Charging a fee for providing a Kafalah (guarantee for debt) is generally not permissible as it resembles Riba (getting a return for a liability undertaking that is like a loan). However, fees for actual administrative costs related to issuing the guarantee, or fees for performance guarantees (guaranteeing completion of work, not debt payment) may be permissible under certain conditions.",
+                    "Types: Kafalah bin-Nafs (guarantee of person), Kafalah bil-Mal (guarantee of property/debt)."
+                ]
+            },
+            {
+                "name": "Hawalah (Debt Transfer)",
+                "type": "AncillaryContract",
+                "description": "A contract that transfers a debt from the liability of the original debtor (Muhil) to the liability of a third party (Muhal 'alayh), who owes a debt to the Muhil or agrees to pay on their behalf, with the consent of the creditor (Muhal).",
+                "key_conditions_and_rules": [
+                    "Consent of all three parties (transferor, transferee, creditor) is generally required by most scholars.",
+                    "The debt being transferred must be known and established.",
+                    "The debt owed by the Muhal 'alayh to the Muhil (if applicable, for Hawalah Muqayyadah - restricted transfer) must be equal in kind and amount to the debt being transferred, or the Muhal 'alayh simply accepts to pay.",
+                    "Once Hawalah is validly concluded, the original debtor is absolved of liability."
+                ]
+            },
+            {
+                "name": "Ju'alah (Reward for Service/Work)",
+                "type": "AncillaryContract",
+                "description": "A contract where one party (Ja'il - Offerer) offers a specified reward (Ju'l) to anyone (Amil - Agent/Worker) who accomplishes a specific task or achieves a defined result. Unlike Ijarah, payment is contingent upon successful completion.",
+                "key_conditions_and_rules": [
+                    "The offerer, the work, and the reward must be clearly specified.",
+                    "The work must be permissible.",
+                    "The contract is generally non-binding on the agent before they start the work; they can withdraw. The offerer can also withdraw before work starts or significantly progresses, subject to compensating for actual effort if any.",
+                    "Reward is due only upon successful completion of the specified task."
+                ],
+                "common_applications": [
+                    "Contests with prizes",
+                    "Rewards for finding lost items",
+                    "Performance fees for fund managers in some structures (if criteria met)"
+                ]
+            },
+            {
+                "name": "Arbun (Earnest Money / Down Payment Sale)",
+                "type": "SaleVariant",
+                "description": "A sale contract where the buyer pays a portion of the price (earnest money - Arbun) to the seller with the understanding that if the sale is completed, the Arbun forms part of the price. If the buyer backs out, they forfeit the Arbun to the seller (subject to conditions).",
+                "key_conditions_and_rules": [
+                    "Permissibility is subject to scholarly debate. Those who permit it require clear conditions:",
+                    "The Arbun amount must be specified.",
+                    "A specific period for the buyer to confirm or rescind the sale must be agreed upon.",
+                    "If the buyer confirms, Arbun is part of price. If buyer rescinds within the period, seller keeps the Arbun.",
+                    "If the seller is the cause of non-completion, Arbun must be returned.",
+                    "The underlying sale itself must be Shariah-compliant."
+                ]
+            },
+            {
+                "name": "Wa'd (Promise)",
+                "type": "UnilateralUndertaking",
+                "description": "A unilateral promise or undertaking given by one party to another. It is distinct from a bilateral contract ('Aqd).",
+                "key_conditions_and_rules": [
+                    "A unilateral promise (Wa'd) is generally considered morally binding (Diyanatan).",
+                    "Whether it is legally binding and enforceable (Qada'an) is subject to scholarly debate and conditions:",
+                    "Many scholars (especially contemporary ones, e.g., AAOIFI) consider a unilateral promise binding if: (a) it is made in a commercial context, (b) the promisee has incurred liability or undertaken action based on the promise, and (c) the promisor does not fulfill it without valid reason.",
+                    "Bilateral binding promises (Muwa'adah) that are conditional on each other can resemble a contract and need careful structuring to avoid Gharar or elements of prohibited contracts.",
+                    "Wa'd is a key component in many modern Islamic finance structures (e.g., Murabaha to Purchase Orderer, Ijarah Muntahia Bittamleek)."
+                ]
+            },
+            {
+                "name": "Khiyar (Option in Contract)",
+                "type": "ContractualRight",
+                "description": "A right given to one or both contracting parties to confirm or rescind a contract within a specified period or upon occurrence of certain conditions.",
+                "types_of_khiyar": [
+                    {
+                        "name": "Khiyar al-Majlis (Option of Meeting Session)",
+                        "description": "Right to rescind as long as parties are physically present at contracting session."
+                    },
+                    {
+                        "name": "Khiyar al-Shart (Stipulated Option)",
+                        "description": "Right to rescind within a specified period (e.g., 3 days) agreed by parties."
+                    },
+                    {
+                        "name": "Khiyar al-'Ayb (Option of Defect)",
+                        "description": "Right to rescind or seek compensation if a defect is found in the subject matter that was not disclosed."
+                    },
+                    {
+                        "name": "Khiyar al-Ru'yah (Option of Inspection)",
+                        "description": "Right to rescind upon inspecting an item bought without prior sight, if it doesn't match description."
+                    }
+                ],
+                "key_conditions_and_rules": [
+                    "The type of Khiyar and its duration (if applicable) should be clearly understood and agreed.",
+                    "Exercise of Khiyar must be within its valid period/conditions.",
+                    "Not all contracts accept all types of Khiyar (e.g., Salam generally doesn't accept Khiyar al-Shart for the buyer after contract)."
+                ]
+            },
+            {
+                "name": "Hamish Jiddiyah (Security Deposit)",
+                "type": "RiskMitigationTool",
+                "description": "An amount taken by a financial institution (e.g., in Murabaha to Purchase Orderer) from a client who orders the purchase of an asset, to ensure seriousness and cover potential loss if the client defaults on their promise to buy the asset after the institution acquires it.",
+                "key_conditions_and_rules": [
+                    "It is not part of the price until the final sale contract is concluded.",
+                    "It is held as a trust (Amanah).",
+                    "If the client fulfills the promise to buy, Hamish Jiddiyah can be used as part of the down payment or returned.",
+                    "If the client defaults on the promise causing actual loss to the institution (e.g., institution bought asset and had to sell it at a lower price), the institution can only deduct the actual loss suffered from the Hamish Jiddiyah. Any remainder must be returned to the client.",
+                    "The amount of actual loss must be justifiable (e.g., difference between purchase price and sale price to a third party, or actual damages)."
+                ]
+            }
+        ]
+    }
+}

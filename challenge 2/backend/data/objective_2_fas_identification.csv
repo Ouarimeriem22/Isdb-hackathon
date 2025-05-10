@@ -1,0 +1,101 @@
+Entry_ID,Bank_Name,Transaction_Description,Debit_Account,Credit_Account,Amount,Keywords,FAS_Code,Contract_Type,Confidence_Level
+ENT001,Qatar Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,437081,joint venture,FAS 4,Musharaka,0.98
+ENT002,Kuwait Finance House,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,215519,joint venture,FAS 4,Musharaka,0.78
+ENT003,Bank Al Jazeera,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,346585,advance payment,FAS 7,Salam,0.95
+ENT004,Bank Al Jazeera,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,398193,construction,FAS 10,Istisna,0.77
+ENT005,Kuwait Finance House,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,186010,rental,FAS 32,Ijarah,0.99
+ENT006,Al Baraka Bank,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,338342,advance payment,FAS 7,Salam,0.98
+ENT007,Qatar Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,20738,business investment,FAS 4,Musharaka,0.99
+ENT008,Dubai Islamic Bank,Bank provides advance cash payment for goods to be delivered in the future.,Investment,Inventory,409680,future delivery,FAS 7,Salam,0.77
+ENT009,Kuwait Finance House,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,279639,manufacturing,FAS 10,Istisna,0.76
+ENT010,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,237532,installments,FAS 28,Murabaha,0.74
+ENT011,Qatar Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,379084,profit-sharing,FAS 4,Musharaka,0.94
+ENT012,Al Baraka Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,43920,cost plus,FAS 10,Istisna,0.72
+ENT013,Qatar Islamic Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,492686,delivery,FAS 10,Istisna,0.74
+ENT014,Al Baraka Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,207940,installments,FAS 28,Murabaha,0.95
+ENT015,Qatar Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,217758,term contract,FAS 32,Ijarah,0.89
+ENT016,Qatar Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,456955,joint venture,FAS 4,Musharaka,0.89
+ENT017,Bank Al Jazeera,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,215494,business investment,FAS 4,Musharaka,0.8
+ENT018,Al Baraka Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,97599,installments,FAS 28,Murabaha,0.74
+ENT019,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Receivable,Cash,188820,deferred payment,FAS 28,Murabaha,0.86
+ENT020,Kuwait Finance House,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,23383,profit-sharing,FAS 4,Musharaka,0.93
+ENT021,Qatar Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,37298,installments,FAS 28,Murabaha,0.79
+ENT022,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,430676,markup,FAS 28,Murabaha,0.89
+ENT023,Qatar Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,279636,term contract,FAS 32,Ijarah,0.7
+ENT024,Kuwait Finance House,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,367405,profit-sharing,FAS 4,Musharaka,0.91
+ENT025,Bank Al Jazeera,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,290774,resale,FAS 28,Murabaha,0.73
+ENT026,Kuwait Finance House,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,476496,manufacturing,FAS 10,Istisna,0.77
+ENT027,Kuwait Finance House,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,478779,joint venture,FAS 4,Musharaka,0.87
+ENT028,Bank Al Jazeera,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,90834,cost plus,FAS 10,Istisna,0.92
+ENT029,Al Baraka Bank,Bank provides advance cash payment for goods to be delivered in the future.,Investment,Inventory,462546,agriculture,FAS 7,Salam,0.93
+ENT030,Dubai Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,84157,equity,FAS 4,Musharaka,0.97
+ENT031,Bank Al Jazeera,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,35319,prepayment,FAS 7,Salam,0.86
+ENT032,Kuwait Finance House,Bank leases equipment to client with option to buy at end of lease term.,Receivable,Lease Income,156040,lease,FAS 32,Ijarah,0.97
+ENT033,Al Baraka Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,368527,delivery,FAS 10,Istisna,0.84
+ENT034,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,299011,markup,FAS 28,Murabaha,0.9
+ENT035,Bank Al Jazeera,Bank leases equipment to client with option to buy at end of lease term.,Receivable,Lease Income,207050,lease,FAS 32,Ijarah,0.81
+ENT036,Al Baraka Bank,Bank sells an asset to client with markup and deferred payment terms.,Receivable,Cash,414057,deferred payment,FAS 28,Murabaha,0.75
+ENT037,Kuwait Finance House,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,441606,delivery,FAS 10,Istisna,0.93
+ENT038,Bank Al Jazeera,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,252165,resale,FAS 28,Murabaha,0.95
+ENT039,Qatar Islamic Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,159316,cost plus,FAS 10,Istisna,0.89
+ENT040,Dubai Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,190824,markup,FAS 28,Murabaha,0.8
+ENT041,Bank Al Jazeera,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,28029,cost plus,FAS 10,Istisna,0.92
+ENT042,Bank Al Jazeera,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,245842,construction,FAS 10,Istisna,0.81
+ENT043,Al Baraka Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,169198,construction,FAS 10,Istisna,0.71
+ENT044,Kuwait Finance House,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,268937,manufacturing,FAS 10,Istisna,0.84
+ENT045,Kuwait Finance House,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,291753,construction,FAS 10,Istisna,0.82
+ENT046,Qatar Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,426805,term contract,FAS 32,Ijarah,0.81
+ENT047,Qatar Islamic Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,291971,delivery,FAS 10,Istisna,0.94
+ENT048,Kuwait Finance House,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,221896,rental,FAS 32,Ijarah,0.95
+ENT049,Dubai Islamic Bank,Bank provides advance cash payment for goods to be delivered in the future.,Investment,Inventory,399434,future delivery,FAS 7,Salam,0.88
+ENT050,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Receivable,Cash,66733,deferred payment,FAS 28,Murabaha,0.99
+ENT051,Bank Al Jazeera,Bank leases equipment to client with option to buy at end of lease term.,Receivable,Lease Income,6912,lease,FAS 32,Ijarah,0.88
+ENT052,Qatar Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,232529,rental,FAS 32,Ijarah,0.7
+ENT053,Bank Al Jazeera,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,300368,equity,FAS 4,Musharaka,0.86
+ENT054,Al Baraka Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,204500,equity,FAS 4,Musharaka,0.94
+ENT055,Qatar Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,290398,installments,FAS 28,Murabaha,0.97
+ENT056,Dubai Islamic Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,399084,manufacturing,FAS 10,Istisna,0.74
+ENT057,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,27109,installments,FAS 28,Murabaha,0.9
+ENT058,Qatar Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Receivable,Cash,453972,deferred payment,FAS 28,Murabaha,0.8
+ENT059,Kuwait Finance House,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,157399,advance payment,FAS 7,Salam,0.97
+ENT060,Dubai Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,432085,profit-sharing,FAS 4,Musharaka,0.82
+ENT061,Qatar Islamic Bank,Bank provides advance cash payment for goods to be delivered in the future.,Investment,Inventory,334624,future delivery,FAS 7,Salam,0.91
+ENT062,Dubai Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,173326,buyout option,FAS 32,Ijarah,0.94
+ENT063,Dubai Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,265991,buyout option,FAS 32,Ijarah,0.74
+ENT064,Qatar Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,234689,buyout option,FAS 32,Ijarah,0.87
+ENT065,Dubai Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,418565,markup,FAS 28,Murabaha,0.78
+ENT066,Qatar Islamic Bank,Bank provides advance cash payment for goods to be delivered in the future.,Investment,Inventory,46876,future delivery,FAS 7,Salam,0.8
+ENT067,Qatar Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,110426,resale,FAS 28,Murabaha,0.73
+ENT068,Bank Al Jazeera,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,443328,prepayment,FAS 7,Salam,0.78
+ENT069,Al Baraka Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,363196,equity,FAS 4,Musharaka,0.81
+ENT070,Dubai Islamic Bank,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,340072,advance payment,FAS 7,Salam,0.75
+ENT071,Kuwait Finance House,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,441223,delivery,FAS 10,Istisna,0.74
+ENT072,Dubai Islamic Bank,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,458561,prepayment,FAS 7,Salam,0.99
+ENT073,Qatar Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Receivable,Lease Income,213619,lease,FAS 32,Ijarah,0.83
+ENT074,Al Baraka Bank,Bank sells an asset to client with markup and deferred payment terms.,Receivable,Cash,212310,deferred payment,FAS 28,Murabaha,0.76
+ENT075,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Receivable,Cash,416573,deferred payment,FAS 28,Murabaha,0.91
+ENT076,Qatar Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,167363,equity,FAS 4,Musharaka,0.79
+ENT077,Dubai Islamic Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,161457,delivery,FAS 10,Istisna,0.87
+ENT078,Bank Al Jazeera,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,177281,manufacturing,FAS 10,Istisna,0.75
+ENT079,Dubai Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,35781,rental,FAS 32,Ijarah,0.91
+ENT080,Kuwait Finance House,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,490914,joint venture,FAS 4,Musharaka,0.86
+ENT081,Dubai Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,57270,profit-sharing,FAS 4,Musharaka,0.73
+ENT082,Kuwait Finance House,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,150747,business investment,FAS 4,Musharaka,0.71
+ENT083,Al Baraka Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,185749,construction,FAS 10,Istisna,0.93
+ENT084,Qatar Islamic Bank,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,420988,buyout option,FAS 32,Ijarah,0.79
+ENT085,Qatar Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,313332,joint venture,FAS 4,Musharaka,0.83
+ENT086,Bank Al Jazeera,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,418354,term contract,FAS 32,Ijarah,0.73
+ENT087,Dubai Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,332261,resale,FAS 28,Murabaha,0.72
+ENT088,Dubai Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,390942,joint venture,FAS 4,Musharaka,0.86
+ENT089,Dubai Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,432164,installments,FAS 28,Murabaha,0.88
+ENT090,Bank Al Jazeera,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,330392,equity,FAS 4,Musharaka,0.84
+ENT091,Al Baraka Bank,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,303349,delivery,FAS 10,Istisna,0.75
+ENT092,Kuwait Finance House,Bank sells an asset to client with markup and deferred payment terms.,Receivable,Cash,101424,deferred payment,FAS 28,Murabaha,0.85
+ENT093,Qatar Islamic Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,85645,installments,FAS 28,Murabaha,0.91
+ENT094,Qatar Islamic Bank,Bank provides advance cash payment for goods to be delivered in the future.,Receivable,Cash,343560,prepayment,FAS 7,Salam,0.72
+ENT095,Al Baraka Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,491624,joint venture,FAS 4,Musharaka,0.8
+ENT096,Qatar Islamic Bank,Bank partners with client on joint business venture where profits and losses are shared.,Investment,Inventory,349829,equity,FAS 4,Musharaka,0.9
+ENT097,Kuwait Finance House,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,439476,rental,FAS 32,Ijarah,0.87
+ENT098,Bank Al Jazeera,Bank leases equipment to client with option to buy at end of lease term.,Investment,Inventory,246280,term contract,FAS 32,Ijarah,0.7
+ENT099,Bank Al Jazeera,Bank contracts manufacturer to build assets for client with agreed delivery schedule.,Investment,Inventory,430194,cost plus,FAS 10,Istisna,0.75
+ENT100,Al Baraka Bank,Bank sells an asset to client with markup and deferred payment terms.,Investment,Inventory,270084,markup,FAS 28,Murabaha,0.83

@@ -1,0 +1,74 @@
+Section 1: Scope and Definitions
+1.1. This standard applies to accounting for Murabaha and Murabaha to the Purchase Orderer (MPO) transactions entered into by Islamic Financial Institutions (IFIs).
+1.2. Murabaha: A sale of goods at a price which includes a profit margin agreed upon by both parties (seller and buyer). The purchase price and the profit margin must be disclosed to the buyer. The sale can be for immediate payment (spot Murabaha) or deferred payment.
+1.3. Murabaha to the Purchase Orderer (MPO): A transaction where an IFI purchases an asset based on a promise from a customer (purchase orderer) to buy it from the IFI on Murabaha terms after the IFI has acquired the asset.
+1.4. Cost in Murabaha: The actual cost incurred by the IFI in acquiring the asset intended for the Murabaha sale. This cost forms the basis for calculating the Murabaha profit.
+1.5. Profit in Murabaha: The agreed-upon markup over the cost, which constitutes the IFI's earnings from the Murabaha transaction.
+1.6. Murabaha is distinct from a Musawama sale, where the cost to the seller is not disclosed to the buyer.
+Section 2: Conditions for a Valid Murabaha Sale
+2.1. The subject matter of the sale (the asset) must exist and be owned by the IFI at the time of the Murabaha sale to the customer.
+2.2. The IFI must have taken possession (actual or constructive) of the asset before selling it to the Murabaha customer. The risks and rewards associated with the asset must have transferred to the IFI prior to its sale.
+2.3. The cost of the asset to the IFI and the profit margin must be expressly stated and known to both parties.
+2.4. The sale must be for a specific asset, not a generic obligation.
+2.5. The price (cost plus profit) must be fixed and determined at the time of the Murabaha contract. It cannot be linked to future unknown benchmarks once the contract is concluded.
+Section 3: Murabaha to the Purchase Orderer (MPO) Specific Rules
+3.1. MPO involves two distinct transactions:
+a) The IFI's purchase of the asset from a third-party supplier.
+b) The IFI's subsequent Murabaha sale of that asset to the purchase orderer (customer).
+3.2. Promise (Wa'd): The customer's request to the IFI to purchase an asset, and their promise to buy it from the IFI via Murabaha, forms the basis of an MPO.
+3.3. A promise to purchase in an MPO may be binding on the purchase orderer if stipulated and if the IFI incurs expenses or enters into a commitment based on that promise. If the promise is binding and the customer defaults, the IFI may only claim compensation for actual damages incurred.
+3.4. The IFI must acquire the asset and assume its risks before executing the Murabaha sale to the customer. A sale contract cannot be concluded before the IFI owns and possesses the asset.
+Section 4: Recognition and Initial Measurement of Murabaha Asset (Inventory)
+4.1. An asset acquired by an IFI with the intention of reselling it under a Murabaha contract shall be recognized as inventory ("Murabaha Inventory" or similar) when the IFI obtains control of the asset, meaning the risks and rewards of ownership are transferred to the IFI or the asset is physically received.
+4.2. The Murabaha asset (inventory) shall be measured initially at its cost.
+4.3. Cost includes:
+a) The purchase price paid to the supplier.
+b) Directly attributable costs incurred to bring the asset to its present location and condition for its intended Murabaha sale (e.g., freight, insurance during transit to the IFI, import duties, non-refundable taxes directly related to acquisition).
+4.4. Costs that are not directly attributable to the acquisition, such as internal administrative overheads or selling expenses of the IFI, are not part of the Murabaha asset's cost.
+4.5. If the IFI receives any trade discounts or rebates from the supplier at the time of acquiring the asset, these should reduce the cost of the Murabaha asset.
+Section 5: Subsequent Measurement of Murabaha Asset (Inventory)
+5.1. Murabaha assets (inventory) held by the IFI shall be measured at the lower of cost and net realizable value (NRV).
+5.2. If the NRV of a Murabaha asset falls below its cost, the carrying amount of the asset shall be written down to its NRV. Such a write-down is recognized as an expense.
+5.3. This situation may arise if the purchase orderer in an MPO is no longer willing or able to buy the asset, and the IFI must sell it to another party at a lower price.
+Section 6: Recognition of Murabaha Sale and Murabaha Receivable
+6.1. The Murabaha sale is recognized when the IFI sells the asset to the Murabaha customer, and the risks and rewards of ownership of the specific asset are transferred from the IFI to the customer.
+6.2. Upon recognition of the Murabaha sale, the carrying amount of the Murabaha asset (inventory) sold is derecognized.
+6.3. A Murabaha receivable shall be recognized at the total selling price (cost to IFI + agreed profit margin) due from the customer.
+Section 7: Recognition of Murabaha Profit
+7.1. Deferred Payment Murabaha: Profit from a Murabaha transaction where payment is deferred shall be recognized on a time-proportion basis over the period of the credit. This effectively means recognizing profit in proportion to the outstanding balance of the Murabaha receivable (e.g., using the effective profit rate method).
+7.2. The time-proportion method of profit recognition should only be applied if it does not conflict with the Shari’a principle that profit is earned through a valid sale of an asset. The underlying sale must be genuine.
+7.3. Spot Payment Murabaha: If the Murabaha sale is for immediate payment (spot), the entire profit is recognized at the point of sale.
+7.4. Short-Term Deferred Payment: If the Murabaha payment is deferred but for a short term (e.g., settlement expected within the same financial period as the sale), profit may be recognized at the point of sale if the effect of doing so is not materially different from the time-proportion basis.
+7.5. Profit should be recognized on an accrual basis, not solely when cash is received (for deferred payments).
+Section 8: Handling of Rebates, Penalties, and Security Deposits
+8.1. Rebates for Early Payment: Any rebate (reduction in price) voluntarily given by the IFI to a Murabaha purchaser for early payment should be accounted for as a reduction of the accrued/deferred Murabaha income and the Murabaha receivable. Such rebates are permissible if not stipulated as a contractual right for the customer resembling interest.
+8.2. Penalties for Late Payment (Ta'widh / Compensation for Delay):
+a) Contractually agreed amounts to be paid by the Murabaha purchaser in case of late payment should primarily be intended to compensate the IFI for actual costs incurred due to the delay or as a deterrent.
+b) Such amounts shall be recognized as income by the IFI only when actually collected.
+c) Income from such penalties should typically be directed to charity, unless the IFI's Shari’a Supervisory Board permits it to be taken as income to cover actual financial loss suffered due to the customer's delinquency.
+8.3. Security Deposit (Hamish Jiddiyah) in MPO:
+a) An amount obtained from the purchase orderer to ensure their seriousness in purchasing the asset is termed Hamish Jiddiyah.
+b) This deposit is held as a liability by the IFI (trust amount).
+c) If the purchase orderer fulfills the binding promise, the deposit is returned or applied towards the purchase price.
+d) If the purchase orderer breaches a binding promise, and the IFI incurs an actual loss from having to sell the specifically acquired asset to a third party for less than its cost to the IFI, the deposit may be used to cover this actual loss. Any excess deposit must be returned to the customer. The deposit cannot be used to compensate for the IFI's lost expected profit.
+e) If the promise is non-binding, the full deposit must be returned to the customer if they decide not to proceed.
+Section 9: Collateral and Guarantees
+9.1. An IFI may take collateral (Rahn) or obtain third-party guarantees to secure the Murabaha receivable.
+9.2. The accounting for collateral obtained follows general principles; collateral does not affect the initial recognition or measurement of the Murabaha receivable unless realized.
+Section 10: Provision for Doubtful Murabaha Receivables
+10.1. Murabaha receivables shall be assessed for impairment at each reporting date.
+10.2. A provision for doubtful receivables (allowance for credit losses) shall be established if there is objective evidence that the IFI will not be able to collect all amounts due according to the original terms of the Murabaha receivable.
+10.3. The amount of the provision should be the difference between the receivable's carrying amount and the present value of estimated future cash flows discounted at the Murabaha contract's original effective profit rate (or an approximation if a Shari'a-compliant discounting method is applicable). As a practical expedient or for Shari'a reasons, it might be based on expected uncollectible amounts without discounting.
+10.4. The creation or increase of the provision is recognized as an expense in the statement of income.
+Section 11: Damaged or Defective Goods
+11.1. If an asset acquired by the IFI for Murabaha is damaged or found defective before its sale to the Murabaha customer, the loss is borne by the IFI. The cost of the asset for Murabaha purposes must be adjusted accordingly, or the asset may be deemed unsuitable for the intended Murabaha.
+11.2. If a defect is discovered by the customer after the Murabaha sale (Khiyar al-Ayb - option of defect), the customer may have recourse as per Shari’a rules (e.g., return the asset, receive compensation). The IFI should account for such returns or allowances as a reduction in revenue and receivables, or an expense, depending on the specifics.
+Section 12: Disclosure Requirements (Key Aspects)
+12.1. The accounting policies adopted for Murabaha and MPO transactions, including methods for profit recognition.
+12.2. A breakdown of Murabaha receivables, showing gross amounts, provisions for doubtful debts, and net carrying amounts.
+12.3. Maturity analysis of Murabaha receivables.
+12.4. The amount of Murabaha profit recognized during the period.
+12.5. Information about significant concentrations of credit risk arising from Murabaha receivables.
+12.6. The amount of security deposits (Hamish Jiddiyah) held.
+12.7. Nature and carrying amount of assets acquired by the IFI but not yet sold under Murabaha (Murabaha Inventory), and any write-downs.
+12.8. Amount of income recognized from late payment penalties and the amount disbursed to charity from such penalties.

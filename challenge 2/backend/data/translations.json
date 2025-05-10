@@ -1,0 +1,68 @@
+{
+    "en": {
+      "title": "Islamic Finance Standards Classifier",
+      "subtitle": "Enter a financial transaction to identify applicable AAOIFI Standards",
+      "transaction_label": "Transaction Description",
+      "transaction_placeholder": "Enter the full transaction details including context, amounts, and journal entries...",
+      "analyze_button": "Analyze Transaction",
+      "examples_title": "Example Transactions",
+      "results_title": "Analysis Results",
+      "results_subtitle": "Applicable AAOIFI Standards for your transaction",
+      "transaction_details": "Transaction Details",
+      "applicable_standards": "Applicable Standards",
+      "standard_header": "Standard",
+      "name_header": "Name",
+      "relevance_header": "Relevance",
+      "explanation_header": "Explanation",
+      "no_standards_found": "No applicable standards found for this transaction. Please check your input or try another transaction.",
+      "analyze_another": "Analyze Another Transaction",
+      "footer_text": "Islamic Finance Standards AI Classifier - Hackathon Project",
+      "no_transaction_error": "No transaction provided"
+    },
+    "ar": {
+      "title": "مصنف معايير التمويل الإسلامي",
+      "subtitle": "أدخل معاملة مالية لتحديد معايير الهيئة المحاسبية والمراجعة للمؤسسات المالية الإسلامية المطبقة",
+      "transaction_label": "وصف المعاملة",
+      "transaction_placeholder": "أدخل تفاصيل المعاملة الكاملة بما في ذلك السياق والمبالغ والقيود المحاسبية...",
+      "analyze_button": "تحليل المعاملة",
+      "examples_title": "أمثلة المعاملات",
+      "results_title": "نتائج التحليل",
+      "results_subtitle": "معايير الهيئة المحاسبية والمراجعة للمؤسسات المالية الإسلامية المطبقة لمعاملتك",
+      "transaction_details": "تفاصيل المعاملة",
+      "applicable_standards": "المعايير المطبقة",
+      "standard_header": "المعيار",
+      "name_header": "الاسم",
+      "relevance_header": "الصلة",
+      "explanation_header": "التفسير",
+      "no_standards_found": "لم يتم العثور على معايير مطبقة لهذه المعاملة. يرجى التحقق من المدخلات أو تجربة معاملة أخرى.",
+      "analyze_another": "تحليل معاملة أخرى",
+      "footer_text": "مصنف معايير التمويل الإسلامي بالذكاء الاصطناعي - مشروع هاكاثون",
+      "no_transaction_error": "لم يتم تقديم أي معاملة",
+      "standards": {
+        "FAS4": {
+          "name": "تمويل المشاركة",
+          "description": "يغطي المشاركة في حقوق الملكية والمشاريع المشتركة وترتيبات تقاسم الأرباح"
+        },
+        "FAS7": {
+          "name": "السلم والسلم الموازي",
+          "description": "دفع مقدم لتسليم السلع في المستقبل"
+        },
+        "FAS10": {
+          "name": "الاستصناع والاستصناع الموازي",
+          "description": "التصنيع المفوض مع دفعات تدريجية"
+        },
+        "FAS28": {
+          "name": "المرابحة ومبيعات الدفع المؤجل الأخرى",
+          "description": "تمويل التكلفة والربح لشراء الأصول"
+        },
+        "FAS32": {
+          "name": "الإجارة والإجارة المنتهية بالتمليك",
+          "description": "ترتيبات الإيجار، بما في ذلك الإيجار للتملك"
+        },
+        "FAS20": {
+          "name": "العقارات الاستثمارية",
+          "description": "المحاسبة عن العقارات المحتفظ بها للاستثمار"
+        }
+      }
+    }
+  }

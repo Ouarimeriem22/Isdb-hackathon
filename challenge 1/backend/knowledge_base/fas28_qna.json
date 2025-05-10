@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the primary purpose of AAOIFI FAS 28?",
+      "answer": "The preamble of FAS 28 states that this standard provides amendments and clarifications to AAOIFI FAS 4 (Murabaha and MPO). It addresses specific issues for greater consistency and Shari'ah compliance, focusing on the promise in MPO, Hamish Jiddiyah, and related matters.",
+      "keywords": ["fas 28", "purpose", "amendments", "clarifications", "fas 4", "murabaha", "mpo", "binding promise", "hamish jiddiyah"]
+    },
+    {
+      "question": "Does FAS 28 replace FAS 4 entirely?",
+      "answer": "No, according to FAS 28 (Section 1.2), unless specifically amended by FAS 28, the provisions of FAS 4 remain applicable. FAS 28 should be read in conjunction with FAS 4.",
+      "keywords": ["fas 28", "fas 4", "replacement", "conjunction", "scope"]
+    },
+    {
+      "question": "What are the types of promises (Wa'd) in Murabaha to the Purchase Orderer (MPO) clarified by FAS 28?",
+      "answer": "FAS 28 (Section 2.1) clarifies that the promise (Wa'd) in MPO can be: a) Binding on the Purchase Orderer (customer), b) Binding on both parties (IFI and customer) under specific Shari'ah views and conditions, or c) Non-Binding.",
+      "keywords": ["fas 28", "mpo", "murabaha to the purchase orderer", "promise", "wa'd", "binding promise", "non-binding promise", "types"]
+    },
+    {
+      "question": "When is a purchase orderer's promise in MPO considered binding according to FAS 28?",
+      "answer": "As per FAS 28 (Section 2.1.a), a customer's promise in MPO can be binding if stipulated as such and the IFI has incurred actual costs or commitments in reliance on this promise (e.g., purchased a specific asset).",
+      "keywords": ["fas 28", "mpo", "binding promise", "customer", "conditions", "actual costs"]
+    },
+    {
+      "question": "What compensation is an IFI entitled to if a purchase orderer breaches a binding promise in an MPO, as per FAS 28?",
+      "answer": "If a purchase orderer breaches a binding promise, FAS 28 (Section 2.2.a, 2.2.b) states the IFI is entitled to compensation for *actual damages* incurred. This includes the difference between the IFI's cost and eventual lower selling price to a third party, and other direct demonstrable costs, but *not* lost profit.",
+      "keywords": ["fas 28", "mpo", "breach of binding promise", "compensation", "actual damages", "lost profit exclusion"]
+    },
+    {
+      "question": "Can an IFI claim lost profit or opportunity cost if a customer breaches a binding MPO promise, according to FAS 28?",
+      "answer": "No, FAS 28 (Section 2.2.c) explicitly states that compensation for actual damages *cannot* include lost profit or opportunity cost that the IFI might have earned, to avoid resemblance to Riba.",
+      "keywords": ["fas 28", "mpo", "breach", "lost profit", "opportunity cost", "riba", "prohibition"]
+    },
+    {
+      "question": "What is the purpose of taking a Security Deposit (Hamish Jiddiyah) in MPO, as clarified by FAS 28?",
+      "answer": "FAS 28 (Section 3.1) clarifies that Hamish Jiddiyah is taken by the IFI from the purchase orderer in an MPO to ensure the seriousness (Jiddiyah) of the customer's promise to purchase.",
+      "keywords": ["fas 28", "mpo", "hamish jiddiyah", "security deposit", "purpose", "seriousness", "jiddiyah"]
+    },
+    {
+      "question": "How should Hamish Jiddiyah be accounted for by an IFI upon receipt, according to FAS 28?",
+      "answer": "FAS 28 (Section 3.2.a) mandates that Hamish Jiddiyah received is to be treated as a **liability** on the IFI’s statement of financial position (e.g., 'Customer Security Deposits'). It is not recognized as income upon receipt.",
+      "keywords": ["fas 28", "hamish jiddiyah", "accounting treatment", "liability", "income recognition prohibition"]
+    },
+    {
+      "question": "How is Hamish Jiddiyah applied if the purchase orderer fulfills their binding promise in an MPO, according to FAS 28?",
+      "answer": "If the customer fulfills their binding promise, FAS 28 (Section 3.3.a) states the Hamish Jiddiyah is typically returned to the customer or, with consent, applied as part of the Murabaha purchase price.",
+      "keywords": ["fas 28", "mpo", "hamish jiddiyah", "promise fulfillment", "application", "return", "purchase price"]
+    },
+    {
+      "question": "What can an IFI do with the Hamish Jiddiyah if a purchase orderer breaches a binding promise, as per FAS 28?",
+      "answer": "If a customer breaches a binding promise, FAS 28 (Section 3.3.b, 3.3.c) allows the IFI to use Hamish Jiddiyah to cover *actual damages* incurred due to the breach. Any excess deposit remaining after covering these damages *must* be returned to the customer.",
+      "keywords": ["fas 28", "mpo", "hamish jiddiyah", "breach of binding promise", "actual damages", "excess return"]
+    },
+    {
+      "question": "Can an IFI retain the entire Hamish Jiddiyah if a customer breaches a binding promise, even if actual loss is less, under FAS 28?",
+      "answer": "No, FAS 28 (Section 3.3.d) specifies that Hamish Jiddiyah cannot be forfeited entirely if the actual loss is less than the deposit. The IFI can only retain the amount equivalent to its actual loss.",
+      "keywords": ["fas 28", "mpo", "hamish jiddiyah", "forfeiture", "actual loss", "limitation"]
+    },
+    {
+      "question": "What happens to the Hamish Jiddiyah if the customer's promise in MPO was non-binding and they decide not to purchase, according to FAS 28?",
+      "answer": "If the promise was non-binding and the customer decides not to proceed, FAS 28 (Section 3.4.a) requires the full Hamish Jiddiyah to be returned to the customer, regardless of any costs the IFI might have incurred.",
+      "keywords": ["fas 28", "mpo", "hamish jiddiyah", "non-binding promise", "full return"]
+    },
+    {
+      "question": "What is 'Khiyar al-Shart' (stipulated option) in a Murabaha contract as addressed by FAS 28?",
+      "answer": "FAS 28 (Section 4.1.a) describes Khiyar al-Shart as a stipulated option in the Murabaha contract for one or both parties to rescind the contract within a specified period. If exercised, the sale is nullified, and accounting entries are reversed.",
+      "keywords": ["fas 28", "murabaha", "khiyar al-shart", "stipulated option", "rescission", "accounting reversal"]
+    },
+    {
+      "question": "What is 'Khiyar al-Ayb' (option of defect) in Murabaha, and what are the customer's rights under FAS 28 guidance?",
+      "answer": "Khiyar al-Ayb is the option due to a defect in the Murabaha asset discovered after purchase. FAS 28 (Section 4.2) indicates the customer may return the asset (recovering price), retain it and claim compensation for value diminution, or retain it as is if the defect is minor and agreed. The IFI accounts for the financial impact.",
+      "keywords": ["fas 28", "murabaha", "khiyar al-ayb", "option of defect", "customer rights", "accounting impact"]
+    },
+    {
+      "question": "Can IFIs include general administrative overheads or internal financing costs in the Murabaha 'cost base' presented to the customer, according to FAS 28?",
+      "answer": "Generally no. FAS 28 (Section 5.1) clarifies that only *directly attributable costs* for acquiring the asset for MPO can be included in the Murabaha cost. General overheads or IFI's internal financing costs are not included unless agreed as a separate transparent service fee.",
+      "keywords": ["fas 28", "mpo", "murabaha cost base", "direct costs", "indirect costs exclusion", "overheads"]
+    },
+    {
+      "question": "How should an IFI treat rebates or discounts received from a supplier *after* agreeing on the Murabaha cost with a purchase orderer but *before* finalizing the Murabaha sale, as per FAS 28?",
+      "answer": "If the Murabaha sale contract isn't finalized, FAS 28 (Section 5.2.a) suggests such a rebate should ideally reduce the cost disclosed to the purchase orderer, thus reducing the total Murabaha price.",
+      "keywords": ["fas 28", "mpo", "supplier rebates", "post-cost agreement", "pre-sale finalization", "cost reduction"]
+    },
+    {
+      "question": "What if a supplier rebate is received by the IFI *after* the Murabaha sale contract has already been executed, according to FAS 28 guidance?",
+      "answer": "If the Murabaha sale contract has been executed, FAS 28 (Section 5.2.b) states the treatment of such post-acquisition rebates received by the IFI should be per the IFI’s SSB ruling. Often, this may require it to be passed to the customer or treated as permissible IFI income under specific conditions.",
+      "keywords": ["fas 28", "murabaha", "supplier rebates", "post-sale execution", "ssb ruling", "transparency"]
+    },
+    {
+      "question": "What new disclosure requirements related to MPO promises are introduced by FAS 28?",
+      "answer": "FAS 28 (Section 6.1) requires disclosure of the IFI's policy regarding the binding nature of promises in MPO transactions (e.g., one-sided or two-sided).",
+      "keywords": ["fas 28", "disclosure", "mpo promise", "binding nature policy"]
+    },
+    {
+      "question": "What disclosures are required by FAS 28 concerning Hamish Jiddiyah?",
+      "answer": "FAS 28 (Sections 6.2, 6.3, 6.4) mandates disclosure of: the accounting policy for Hamish Jiddiyah (including its treatment in case of fulfillment or breach); the aggregate amount of Hamish Jiddiyah held as a liability; and information about amounts (if any) utilized from Hamish Jiddiyah to cover actual damages, specifying the nature of these damages.",
+      "keywords": ["fas 28", "disclosure", "hamish jiddiyah", "accounting policy", "liability amount", "damages utilization"]
+    },
+    {
+      "question": "Does FAS 28 require disclosures about options (Khiyar) in Murabaha contracts?",
+      "answer": "Yes, FAS 28 (Section 6.5) requires disclosure of policies related to various options (Khiyar) if they are significant or frequently encountered, and their financial impact if material.",
+      "keywords": ["fas 28", "disclosure", "options", "khiyar", "murabaha", "policy", "financial impact"]
+    }
+  ]
